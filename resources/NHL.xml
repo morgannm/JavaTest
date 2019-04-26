@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NHL>
+	<Teams>		
+		<Team Name="Ducks" City="Anaheim">		
+		</Team>
+		<Team Name="Canadians" City="Montreal">		
+		</Team>
+		<Team Name="Coyotes" City="Glendale">		
+		</Team>
+		<Team Name="Senators" City="Ottawa">		
+		</Team>
+		<Team Name="Rangers" City="New York">		
+		</Team>
+		<Team Name="Bruins" City="Boston">		
+		</Team>
+		<Team Name="Capitals" City="Washington">		
+		</Team>
+		<Team Name="Maple Leafs" City="Toronto">		
+		</Team>
+		<Team Name="Blues" City="Saint-Louis">		
+		</Team>
+	</Teams>
+	<Conferences>
+		<Conference Name="Eastern">
+			<Division Name="Atlantic">
+			</Division>
+			<Division Name="Metropolitan">
+			</Division>
+		</Conference>
+		<Conference Name="Western">
+			<Division Name="Central">
+			</Division>
+			<Division Name="Pacific">
+			</Division>
+		</Conference>
+	</Conferences>
+</NHL>
