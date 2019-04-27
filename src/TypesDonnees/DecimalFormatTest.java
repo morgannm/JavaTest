@@ -12,6 +12,7 @@ public class DecimalFormatTest
 
         // Provoque une erreur NumberFormatException avec les paramètres régionaux français
         //Double test = Double.parseDouble( new DecimalFormat( "##.####" ).format( test1 ) );
+        // modif master
 
         // Fonctionne quels que soient les paramètres régionaux
         DecimalFormat decimalFormat = (DecimalFormat)NumberFormat.getNumberInstance( new Locale( "en", "US"));
