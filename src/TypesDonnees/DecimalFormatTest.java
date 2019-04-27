@@ -14,7 +14,6 @@ public class DecimalFormatTest
         // master 27/04-2
         // master 27/04-3 (Dell-Morgann)
         // master 27/04-4 (Dell-Morgann)
-        // master 27/04-5 (Dell-Morgann)
         Double test1 = 123.456;
 
         // Provoque une erreur NumberFormatException avec les paramètres régionaux français
