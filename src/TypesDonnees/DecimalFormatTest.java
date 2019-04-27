@@ -11,6 +11,7 @@ public class DecimalFormatTest
         // branch-1
         // branch-2
         // master 27/04-1
+        // master 27/04-2
         Double test1 = 123.456;
 
         // Provoque une erreur NumberFormatException avec les paramètres régionaux français
