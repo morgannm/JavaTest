@@ -20,5 +20,7 @@ public class DecimalFormatTest
         Double test = Double.parseDouble(decimalFormat.format(test1));
 
         System.out.println( "test : " +test );
+
+        // Test pour patch
     }
 }
