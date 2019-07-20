@@ -5,25 +5,25 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
-/*
-import org.w3c.dom.Document;
-import org.w3c.dom.*;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-*/
-
 /**
  * Created by morgannm on 12/02/2016.
  */
 public class ReadXml {
+
     public static void main(String args[]) {
+        openXMLFile("resources\\NHL.xml", false);
+        openXMLFile("resources\\NHL_DTD.xml", true  );
+        System.out.println("Terminé");
+    }
+
+    private static void openXMLFile(String pathName, boolean validate) {
+        System.out.println("Ouverture de " + pathName);
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         builderFactory.setNamespaceAware(true); // tenir compte des namespaces
-        //builderFactory.setValidating(true); // validation du document XML par le parser
-        DocumentBuilder builder = null;
+        if (validate) {
+            builderFactory.setValidating(true); // validation du document XML par le parser
+        }
+        DocumentBuilder  builder = null;
         try {
             builder = builderFactory.newDocumentBuilder();
         }
@@ -31,8 +31,9 @@ public class ReadXml {
             e.printStackTrace();
             System.exit(1);
         }
+
         Document xmlDoc = null;
-        File fic = new File("resources\\NHL.xml");
+        File fic = new File(pathName);
         try
         {
             xmlDoc = builder.parse(fic);
@@ -44,6 +45,6 @@ public class ReadXml {
             e.printStackTrace();
             System.exit(1);
         }
-        System.out.println("Terminé");
+
     }
 }

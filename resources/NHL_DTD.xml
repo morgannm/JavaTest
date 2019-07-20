@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NHL [
+<!ELEMENT NHL (Teams, Conferences, Arbitrage)> <!-- NHL doit contenir Teams, Conferences, Arbitrage dans cet ordre-->
+<!ELEMENT Teams (Team+)> <!-- Teams doit contenir au moins une fois Team -->
+<!ELEMENT Team (StanleyCups?)> <!-- Team peut contenir StanleyCups mais pas obligatoirement -->
+<!ATTLIST Team Name CDATA #REQUIRED> <!-- Name est un attribut obligatoire de Team -->
+<!ATTLIST Team City CDATA #REQUIRED> <!-- CDATA : City peut contenir n'importe quel texte -->
+<!ATTLIST Team Creation CDATA #IMPLIED> <!-- Creation est un attribut optionnel de Team -->
+<!ELEMENT StanleyCups (StanleyCup*)> <!-- StanleyCups peut contenir plusieurs fois StanleyCup ou pas du tout -->
+<!ELEMENT StanleyCup (#PCDATA)> <!-- l'élément StanleyCup contient une valeur -->
+<!ELEMENT Conferences (Conference+)> <!-- Conferences doit contenir au moins un élément Conference -->
+<!ELEMENT Conference (Division+)>
+<!ATTLIST Conference Name (Eastern | Western) #REQUIRED> <!-- Name doit contenir Eastern ou Western -->
+<!ELEMENT Division (#PCDATA)>
+<!ATTLIST Division Name (Atlantic | Metropolitan | Pacific | Central) #REQUIRED>
+<!ELEMENT Arbitrage ANY> <!-- Arbitrage peut contenir n'importe quoi -->
+]>
+<NHL>
+    <Teams>
+        <Team Name="Golden Knights" City="Las Vegas" Creation="2017">
+            <StanleyCups></StanleyCups>
+        </Team>
+        <Team Name="Canadians" City="Montreal">
+            <StanleyCups>
+                <StanleyCup>1986</StanleyCup>
+                <StanleyCup>1993</StanleyCup>
+            </StanleyCups>
+        </Team>
+		<Team Name="Ducks" City="Anaheim">		
+		</Team>
+    </Teams>
+    <Conferences>
+		<Conference Name="Eastern">
+			<Division Name="Atlantic">
+			</Division>
+			<Division Name="Metropolitan">
+			</Division>
+		</Conference>
+		<Conference Name="Western">
+			<Division Name="Central">
+			</Division>
+			<Division Name="Pacific">
+			</Division>
+		</Conference>
+    </Conferences>
+    <Arbitrage>Toronto</Arbitrage>
+</NHL>
