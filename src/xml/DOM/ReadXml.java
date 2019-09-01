@@ -1,7 +1,10 @@
-package xml;
+package xml.DOM;
 
 import java.io.*;
-import javax.xml.parsers.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
@@ -11,19 +14,18 @@ import org.xml.sax.SAXException;
 public class ReadXml {
 
     public static void main(String args[]) {
-        openXMLFile("resources\\NHL.xml", false);
-        openXMLFile("resources\\NHL_DTD.xml", true  );
+        openXMLFile("resources\\NHL_Schema_ref.xml", false);
         System.out.println("Terminé");
     }
 
     private static void openXMLFile(String pathName, boolean validate) {
         System.out.println("Ouverture de " + pathName);
-        DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+        final DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         builderFactory.setNamespaceAware(true); // tenir compte des namespaces
         if (validate) {
             builderFactory.setValidating(true); // validation du document XML par le parser
         }
-        DocumentBuilder  builder = null;
+        DocumentBuilder builder = null;
         try {
             builder = builderFactory.newDocumentBuilder();
         }

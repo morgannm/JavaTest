@@ -1,4 +1,4 @@
-package xml;
+package xml.DOM;
 
 import java.io.*;
 import java.nio.file.*;
@@ -14,7 +14,7 @@ public class TryDOM implements ErrorHandler {
 //      System.exit(1);
 //    }
     
-    DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
+    final DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
     builderFactory.setNamespaceAware(true); // tenir compte des namespaces
     //builderFactory.setValidating(true); // validation du document XML par le parser
     DocumentBuilder builder = null;
@@ -29,7 +29,8 @@ public class TryDOM implements ErrorHandler {
     System.out.println("Working Directory = " + System.getProperty("user.dir"));
      
     //Path xmlFile = Paths.get(args[0]);
-    Path xmlFile = Paths.get("C:\\Temp\\NHL.xml");
+    //Path xmlFile = Paths.get("C:\\Temp\\NHL.xml");
+    Path xmlFile = Paths.get("resources\\NHL.xml");
     Document xmlDoc = null;
     try (BufferedInputStream in = new BufferedInputStream(Files.newInputStream(xmlFile))){
         File fic = new File("resources\\NHL.xml");
@@ -65,7 +66,7 @@ public class TryDOM implements ErrorHandler {
     } catch(SAXException | IOException e) {
         e.printStackTrace();
         System.exit(1);
-    } 
+    }
   }
 
   public void fatalError(SAXParseException spe) throws SAXException {
