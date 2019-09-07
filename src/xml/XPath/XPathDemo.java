@@ -31,51 +31,74 @@ public class XPathDemo {
             XPath path = xpf.newXPath();
 
             // retourne la valeur texte d'un noeud
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Retourne les valeurs texte du 1er noeud Division trouvé dans /NHL/Conference");
             String expression = "/NHL/Conference/Division";
             String str = (String)path.evaluate(expression, root);
             System.out.println(str);
-            System.out.println("-------------------------------------");
 
-            // retourne True car il y a au moins un noeud "Division" dans le document
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Teste l'existence d'au moins un noeud 'Division'");
             expression = "//Division";
             boolean bool = (Boolean)path.evaluate(expression, root, XPathConstants.BOOLEAN);
-            System.out.println("Test de l'existence d'un noeud : " + bool);
-            System.out.println("-------------------------------------");
+            // retourne True car il y a au moins un noeud "Division" dans le document
+            System.out.println("Expression évaluée : //Division => " + bool);
 
-            // retourne False car il y n'a pas de noeud "Division" à la racine du document
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Teste l'existence d'un noeud 'Division' à la racine du document");
             expression = "/Division";
             bool = (Boolean)path.evaluate(expression, root, XPathConstants.BOOLEAN);
-            System.out.println("Test de l'absence d'un noeud : " + bool);
-            System.out.println("-------------------------------------");
+            // retourne False car il y n'a pas de noeud "Division" à la racine du document
+            System.out.println("Expression évaluée : /Division => " + bool);
 
-            //2ème noeud Division
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Retourne le 2ème noeud 'Division' depuis la racine du document");
             expression = "//Division[2]";
             //Nous castons le résultat en Node
             Node node = (Node)path.evaluate(expression, root, XPathConstants.NODE);
             //Nous affichons son contenu
             System.out.println(node.getNodeName() + " : " + node.getTextContent());
 
-            //1er noeud Team du noeud Division récupéré précédemment
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Retourne le 1er noeud Team du noeud Division récupéré précédemment");
             expression = "Team[1]";
             Element division = (Element)node;
             node = (Node)path.evaluate(expression, division, XPathConstants.NODE);
             System.out.println(node.getNodeName() + " : " + node.getTextContent());
 
-            //
-            expression = "/NHL/Teams/Team[4]/StanleyCups/StanleyCup[1]";
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("/NHL/Conference[2]/Division[2]/Team[5]");
+            expression = "/NHL/Conference[2]/Division[2]/Team[5]";
             str = (String)path.evaluate(expression, root);
             System.out.println(str);
-            System.out.println("-------------------------------------");
 
-            expression = "/NHL/Teams/Team[4]/StanleyCups/StanleyCup[2]";
-            str = (String)path.evaluate(expression, root);
-            System.out.println(str);
-            System.out.println("-------------------------------------");
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Récupération de listes de noeuds");
+            expression = "//Division";
+            NodeList list = (NodeList)path.evaluate(expression, root, XPathConstants.NODESET);
+            int nodesLength = list.getLength();
+            for(int i = 0; i<nodesLength; i++) {
+                Node n = list.item(i);
+                System.out.println(n.getNodeName() + " : " + n.getTextContent());
+                NodeList teams = (NodeList)path.evaluate("Team", n , XPathConstants.NODESET);
+                int nTeams = teams.getLength();
+                for (int j=0; j<nTeams; j++) {
+                    Node team = teams.item(j);
+                    System.out.println("Team : " + team.getTextContent());
+                }
+            }
 
-            expression = "NHL/Teams/Team[1]/Players/Player[2]";
-            str = (String)path.evaluate(expression, root);
-            System.out.println(str);
-            System.out.println("-------------------------------------");
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Récupération d'une valeur de type nombre ");
+            expression = "//StanleyCup[2]"; // 2ème noeud StanleyCup du document depuis la racine
+            int annee = ((Double)path.evaluate(expression,root,XPathConstants.NUMBER)).intValue();
+            System.out.println("Année coupe Stanley Canadiens : " + annee);
+
+            System.out.println("---------------------------------------------------------------------------");
+            System.out.println("Récupération d'une valeur de type chaine ");
+            expression = "//Team[3]"; // 3ème noeud Team du document depuis la racine
+            String teamStr = (String)path.evaluate(expression,root,XPathConstants.STRING);
+            System.out.println(expression + " : " + teamStr);
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();

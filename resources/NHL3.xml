@@ -5,6 +5,10 @@
             <Team City="Boston">Bruins
             </Team>
             <Team City="Montreal">Canadians
+                <StanleyCups>
+                    <StanleyCup>1986</StanleyCup>
+                    <StanleyCup>1993</StanleyCup>
+                </StanleyCups>
             </Team>
             <Team City="Toronto">Maple Leafs
             </Team>
