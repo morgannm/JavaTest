@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NHL>
+    <Conference>Eastern
+        <Division>Atlantic
+            <Team City="Boston">Bruins
+            </Team>
+            <Team City="Montreal">Canadians
+                <StanleyCups>
+                    <StanleyCup>1986</StanleyCup>
+                    <StanleyCup>1993</StanleyCup>
+                </StanleyCups>
+            </Team>
+            <Team City="Toronto">Maple Leafs
+            </Team>
+            <Team City="Ottawa">Senators
+            </Team>
+            <Team City="Tampa Bay">Lightning
+            </Team>
+        </Division>
+        <Division>Metropolitan
+            <Team City="Washington">Capitals
+            </Team>
+            <Team City="New York">Islanders
+            </Team>
+            <Team City="Pittsburgh">Penguins
+            </Team>
+            <Team City="New York">Rangers
+            </Team>
+        </Division>
+    </Conference>
+    <Conference>Western
+        <Division>Central
+            <Team City="Saint-Louis">Blues
+            </Team>
+            <Team City="Winnipeg">Jets
+            </Team>
+            <Team City="Nashville">Predators
+            </Team>
+            <Team City="Dallas">Stars
+            </Team>
+        </Division>
+        <Division>Pacific
+            <Team City="Vancouver">Canucks
+            </Team>
+            <Team City="Glendale">Coyotes
+            </Team>
+            <Team City="Anaheim">Ducks
+            </Team>
+            <Team City="Calgary">Flames
+            </Team>
+            <Team City="Los Angeles">Kings
+            </Team>
+            <Team City="Edmonton">Oilers
+            </Team>
+            <Team City="San Jose">Sharks
+            </Team>
+        </Division>
+    </Conference>
+</NHL>
