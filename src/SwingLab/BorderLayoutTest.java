@@ -5,17 +5,17 @@ import javax.swing.*;
 
 // Test de BorderLayout 
 public class BorderLayoutTest extends JFrame {
-    JButton panicButton;
-    JButton dontPanicButton;
-    JButton blameButton;
-    JButton mediaButton;
-    JButton saveButton;
+    JButton northButton;
+    JButton southButton;
+    JButton eastButton;
+    JButton westButton;
+    JButton centerButton;
 
     public BorderLayoutTest() {
         super("BorderLayoutTest");
         setLookAndFeel();
         // L'arrangement des contrôles dépend de la taille du container
-        setSize(400, 200); 
+        setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         BorderLayout blo = new BorderLayout();
         setLayout(blo);
@@ -24,16 +24,16 @@ public class BorderLayoutTest extends JFrame {
         // GridLayout grid = new GridLayout(2, 3);
         // setLayout(grid);
         
-        panicButton = new JButton("Panic");
-        dontPanicButton = new JButton("Don't Panic");
-        blameButton = new JButton("Blame Others");
-        mediaButton = new JButton("Notify the Media");
-        saveButton = new JButton("Save Yourself");
-        add(panicButton,BorderLayout.NORTH);
-        add(dontPanicButton,BorderLayout.SOUTH);
-        add(blameButton,BorderLayout.EAST);
-        add(mediaButton,BorderLayout.WEST);
-        add(saveButton,BorderLayout.CENTER);
+        northButton = new JButton("BorderLayout.NORTH");
+        southButton = new JButton("BorderLayout.SOUTH");
+        eastButton = new JButton("BorderLayout.EAST");
+        westButton = new JButton("BorderLayout.WEST");
+        centerButton = new JButton("BorderLayout.CENTER");
+        add(northButton,BorderLayout.NORTH);
+        add(southButton,BorderLayout.SOUTH);
+        add(eastButton,BorderLayout.EAST);
+        add(westButton,BorderLayout.WEST);
+        add(centerButton,BorderLayout.CENTER);
         setVisible(true);
     }
 

@@ -49,7 +49,7 @@ public class BoxLayoutDemo extends JFrame {
     public BoxLayoutDemo(){
 
         this.setTitle("Box Layout");
-        this.setSize(300, 170);
+        this.setSize(400, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
 

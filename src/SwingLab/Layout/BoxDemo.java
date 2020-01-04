@@ -11,7 +11,7 @@ import javax.swing.Box;
 public class BoxDemo extends JFrame {
     public BoxDemo(){
         this.setTitle("Box Layout");
-        this.setSize(300, 120);
+        this.setSize(400, 200);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
 
