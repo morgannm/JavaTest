@@ -2,14 +2,16 @@ package SwingLab.Layout;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Vector;
 
-public class LayoutTest4 extends JFrame {
+public class LayoutTest4 extends JFrame implements ActionListener {
     private JPanel topPanel;
     private JButton topButton;
     private JList centerList;
-    private Vector<String> items;
     private JScrollPane listScrollPane;
+    private DefaultListModel<String> items;
 
 
     public LayoutTest4() {
@@ -28,14 +30,15 @@ public class LayoutTest4 extends JFrame {
 
         // Partie supérieure de la fenêtre
         topPanel = new JPanel();
-        topButton = new JButton("Top button");
+        topButton = new JButton("Ajouter 10 éléments");
+        topButton.addActionListener(this);
         topPanel.add(topButton);
         add(topPanel, BorderLayout.PAGE_START);
 
         // Liste centrale
-        items = new Vector<>();
+        items = new DefaultListModel<>();
         for(int i=0;i<10;i++) {
-            items.add("Item #" + i);
+            items.addElement("Item #" + i);
         }
         centerList = new JList(items);
         centerList.setBorder(BorderFactory.createLineBorder(Color.black)); // bordure de la liste
@@ -48,7 +51,19 @@ public class LayoutTest4 extends JFrame {
         setVisible(true);
     }
 
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        Object source = e.getSource();
+        if (source == topButton) {
+            for(int i=10;i<20;i++) {
+                items.addElement("Item #" + i);
+            }
+        }
+
+    }
+
     public static void main(String[] args) {
         LayoutTest4 lt = new LayoutTest4();
     }
+
 }

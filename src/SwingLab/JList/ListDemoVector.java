@@ -1,4 +1,4 @@
-package SwingLab;
+package SwingLab.JList;
 
 import javax.swing.*;
 import java.util.Vector;
