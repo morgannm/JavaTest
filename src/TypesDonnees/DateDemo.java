@@ -1,6 +1,8 @@
 package TypesDonnees;
 
 import java.sql.Timestamp;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -14,5 +16,24 @@ public class DateDemo {
         Date dt = new Timestamp(tst);
         //dt.setTime(tst);
         System.out.println(dt);
+
+        // parse String to date
+        String dateStr = "2019-10-02";
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            dt = formatter.parse(dateStr);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        System.out.println(dateStr + " -> " + dt);
+
+        dateStr = "02/10/2019";
+        formatter = new SimpleDateFormat("dd/MM/yyyy");
+        try {
+            dt = formatter.parse(dateStr);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        System.out.println(dateStr + " -> " + dt);
     }
 }
