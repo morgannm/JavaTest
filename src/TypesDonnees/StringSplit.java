@@ -9,5 +9,14 @@ public class StringSplit {
         for (int i=0; i<array.length; i++) {
             System.out.println(array[i]);
         }
+
+
+        // Split d'une chaîne avec séparateur '|'
+        strToSplit = "Morgann|Moussier|34 bis rue Saint-Marc|45000|Orléans";
+        System.out.println(strToSplit);
+        String[] array2 = strToSplit.split("\\|");
+        for (int i=0; i<array2.length; i++) {
+            System.out.println(array2[i]);
+        }
     }
 }
