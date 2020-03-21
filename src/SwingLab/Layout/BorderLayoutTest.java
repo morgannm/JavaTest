@@ -1,4 +1,4 @@
-package SwingLab;
+package SwingLab.Layout;
 
 import java.awt.*;
 import javax.swing.*;

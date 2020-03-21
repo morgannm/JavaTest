@@ -2,20 +2,24 @@ package SwingLab.JFrame;
 
 import javax.swing.JFrame;
 
-public class FrameTest2 {
-    public static void main(String[] args){
-
-        JFrame fenetre = new JFrame();
-
+public class FrameTest2 extends JFrame {
+    public FrameTest2() {
         //Définit un titre pour notre fenêtre
-        fenetre.setTitle("Ma première fenêtre Java");
+        this.setTitle("Ma première fenêtre Java");
         //Définit sa taille : 400 pixels de large et 100 pixels de haut
-        fenetre.setSize(400, 100);
-        //Nous demandons maintenant à notre objet de se positionner au centre
-        fenetre.setLocationRelativeTo(null);
+        this.setSize(400, 300);
+
+        // Positionnement de la fenêtre sur l'écran
+        //this.setLocationRelativeTo(null); // positionnement au centre
+        this.setLocation(100,200); // positionnement par rapport au bord supérieur gauche de l'écran
+
         //Termine le processus lorsqu'on clique sur la croix rouge
-        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         //Et enfin, la rendre visible
-        fenetre.setVisible(true);
+        this.setVisible(true);
+    }
+
+    public static void main(String[] args){
+        FrameTest2 fenetre = new FrameTest2();
     }
 }
