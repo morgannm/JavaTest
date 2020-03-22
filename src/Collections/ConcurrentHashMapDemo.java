@@ -15,7 +15,7 @@ public class ConcurrentHashMapDemo {
         //Affiche toto car 10 est déjà présent
         System.out.println(str);
 
-        System.out.println("Test de suppression de valeur");
+        System.out.println("TestThread1 de suppression de valeur");
         System.out.println("-----------------------------");
         //On tente de supprimer
         boolean bool = concurent.remove(10, "titi");
@@ -26,7 +26,7 @@ public class ConcurrentHashMapDemo {
         bool = concurent.remove(10, "toto");
         System.out.println(bool);
 
-        System.out.println("Test de replacement de valeur");
+        System.out.println("TestThread1 de replacement de valeur");
         System.out.println("-----------------------------");
         //On rajoute une entrée
         concurent.putIfAbsent(10, "tutu");

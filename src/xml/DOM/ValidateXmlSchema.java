@@ -42,14 +42,14 @@ public class ValidateXmlSchema {
             //pour intercepter les erreurs au cas où il y en ait
             try {
                 // 1) Validation correcte
-                System.out.println("1) Test avec validaton correcte");
+                System.out.println("1) TestThread1 avec validaton correcte");
                 File fileXML = new File("resources\\NHL2.xml");
                 Document xml = builder.parse(fileXML);
                 Element root = xml.getDocumentElement();
                 System.out.println("L'élément racine du document est : " + root.getNodeName());
 
                 System.out.println();
-                System.out.println("2) Test avec validaton incorrecte");
+                System.out.println("2) TestThread1 avec validaton incorrecte");
                 fileXML = new File("resources\\NHL_Bad_Schema_ref.xml");
                 xml = builder.parse(fileXML);
 

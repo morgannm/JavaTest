@@ -3,7 +3,7 @@ package SwingLab.Layout;
 import java.awt.*;
 import javax.swing.*;
 
-// Test de différents Layouts
+// TestThread1 de différents Layouts
 public class LayoutTest extends JFrame {
     JPanel topPanel;
     JPanel leftPanel;
@@ -42,7 +42,7 @@ public class LayoutTest extends JFrame {
         topPanel = new JPanel();
         FlowLayout flo1 = new FlowLayout(FlowLayout.LEFT,5,5);
         topPanel.setLayout(flo1);
-        label1 = new JLabel("Test : ");
+        label1 = new JLabel("TestThread1 : ");
         textField1 = new JTextField(20);
         topPanel.add(label1);
         topPanel.add(textField1);

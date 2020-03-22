@@ -32,7 +32,7 @@ public class ListDemoVectorObjets extends JFrame implements ListSelectionListene
         Random randomGenerator = new Random();
         Vector<Estimate> estimates = new Vector<Estimate>();
         for (int i=1; i<=100; i++) {
-            estimates.add(new Estimate(Integer.toString(i),"Test" + i,randomGenerator.nextInt(1000),randomGenerator.nextInt(2000)));
+            estimates.add(new Estimate(Integer.toString(i),"TestThread1" + i,randomGenerator.nextInt(1000),randomGenerator.nextInt(2000)));
         }
         //Collections.sort(estimates); // tri de estimates => utilise compareTo qui trie sur la quantité
         /*

@@ -3,7 +3,7 @@ package SwingLab;
 import java.awt.*;
 import javax.swing.*;
 
-// Test de FlowLayout et GridLayout
+// TestThread1 de FlowLayout et GridLayout
 public class Crisis extends JFrame {
     JButton panicButton;
     JButton dontPanicButton;

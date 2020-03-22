@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 /**
  * Created by morga on 14/08/2018.
- * Test de rafraîchissement de l'interface utilisateur au cours d'un traitement long
+ * TestThread1 de rafraîchissement de l'interface utilisateur au cours d'un traitement long
  */
 public class SwingWorkerDemo extends JFrame implements ActionListener {
     private JButton testButton;
@@ -24,7 +24,7 @@ public class SwingWorkerDemo extends JFrame implements ActionListener {
         FlowLayout flo = new FlowLayout();
         setLayout(flo);
 
-        testButton = new JButton("Test");
+        testButton = new JButton("TestThread1");
         testButton.addActionListener(this);
         add(testButton);
         statusLabel = new JLabel();

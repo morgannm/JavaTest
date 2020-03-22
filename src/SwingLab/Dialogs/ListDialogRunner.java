@@ -133,7 +133,7 @@ public class ListDialogRunner {
                 while ((fontName == null) && (j < existingFamilyNames.length)) {
                     if (existingFamilyNames[j].startsWith(desiredFonts[i])) {
 
-                        //We've found a match.  Test whether it can display
+                        //We've found a match.  TestThread1 whether it can display
                         //the Latin character 'A'.  (You might test for
                         //a different character if you're using a different
                         //language.)

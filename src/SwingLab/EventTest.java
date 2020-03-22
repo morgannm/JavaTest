@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-// Test de gestion d'événements sur les contrôles de saisie
+// TestThread1 de gestion d'événements sur les contrôles de saisie
 public class EventTest extends JFrame implements ItemListener, ActionListener {
     
     JPanel inputPanel;
@@ -19,7 +19,7 @@ public class EventTest extends JFrame implements ItemListener, ActionListener {
     JLabel resultLabel;
 
     public EventTest() {
-        super("Event Test");
+        super("Event TestThread1");
         setLookAndFeel();
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

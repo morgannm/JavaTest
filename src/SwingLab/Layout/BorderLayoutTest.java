@@ -3,7 +3,7 @@ package SwingLab.Layout;
 import java.awt.*;
 import javax.swing.*;
 
-// Test de BorderLayout 
+// TestThread1 de BorderLayout
 public class BorderLayoutTest extends JFrame {
     JButton northButton;
     JButton southButton;

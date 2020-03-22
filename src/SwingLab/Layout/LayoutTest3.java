@@ -3,7 +3,7 @@ package SwingLab.Layout;
 import java.awt.*;
 import javax.swing.*;
 
-// Test de différents Layouts
+// TestThread1 de différents Layouts
 public class LayoutTest3 extends JFrame {
     JPanel centerPanel;
     JPanel bottomPanel;
