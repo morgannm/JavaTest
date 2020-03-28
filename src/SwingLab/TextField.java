@@ -6,10 +6,17 @@ public class TextField extends JFrame {
     public TextField() {
         super("TextField");
         setLookAndFeel();
-        setSize(375, 180);
+        setSize(600, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
         JLabel pageLabel = new JLabel("Web page address: ", JLabel.RIGHT);
-        JTextField pageAddress = new JTextField(20);
+
+        JTextField pageAddress = new JTextField("Valeur par défaut");
+        pageAddress.setPreferredSize(new Dimension(400,30));
+        pageAddress.setForeground(Color.BLUE);
+        Font police = new Font("Arial", Font.BOLD, 14);
+        pageAddress.setFont(police);
+
         FlowLayout flo = new FlowLayout();
         setLayout(flo);
         add(pageLabel);

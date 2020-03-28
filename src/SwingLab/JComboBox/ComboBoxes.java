@@ -1,4 +1,4 @@
-package SwingLab;
+package SwingLab.JComboBox;
 
 import javax.swing.*;
 import java.awt.*;
