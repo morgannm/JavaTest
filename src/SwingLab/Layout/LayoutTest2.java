@@ -20,7 +20,6 @@ import java.util.Vector;
  */
 public class LayoutTest2 extends JFrame {
     private JPanel topPanel;
-    private JPanel centerPanel;
     private JPanel bottomPanel;
     private JLabel titre;
     private JList solutionsList;
@@ -31,35 +30,9 @@ public class LayoutTest2 extends JFrame {
 
     public LayoutTest2() {
         super("Calcul devis");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Init();
         titre.setText("Devis : ");
-
-        //solutions = (Vector<EstimateSolution>)estimateOptimization.Calculate(estimate, presses);
-
-        /*
-        solutionsList = new JList(solutions);
-        listScrollPane = new JScrollPane(solutionsList);
-        solutionsList.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent mouseEvent) {
-                JList list = (JList)mouseEvent.getSource();
-                EstimateSolution solution = (EstimateSolution)list.getSelectedValue();
-                if (mouseEvent.getClickCount() == 1) {
-                    EstimateTechDetails estimateTechDetails =applicationContext.getBean("estimateTechDetailsImpl",EstimateTechDetails.class);
-                    solutionDetail.setText(estimateTechDetails.GetTechDetails(solution));
-                }
-            }
-        });
-        listScrollPane.setBorder(BorderFactory.createEmptyBorder(0,5,0,5));
-        add(listScrollPane, BorderLayout.LINE_START);
-        */
-
-        /*
-        if (estimate.isCalculated())
-            System.out.println("Devis calculé");
-        else
-            System.out.println("Devis non calculé");
-        */
     }
 
     private void Init() {
@@ -77,7 +50,18 @@ public class LayoutTest2 extends JFrame {
         bottomPanel.add(progression);
         add(bottomPanel,BorderLayout.SOUTH);
 
-        centerPanel = new JPanel();
+        // Liste des solutions sur la gauche de la fenêtre
+        solutions = new Vector<>();
+        for(int i=0;i<10;i++) {
+            EstimateSolution sol = new EstimateSolution();
+            sol.Description = "Solution n°" + i;
+            solutions.add(sol);
+        }
+        solutionsList = new JList(solutions);
+        solutionsList.setBorder(BorderFactory.createEmptyBorder(10,10,10,10)); // marge à l'intérieur de la liste
+        listScrollPane = new JScrollPane(solutionsList);
+        listScrollPane.setBorder(BorderFactory.createEmptyBorder(0,5,0,5)); // espace à l'extérieur
+        add(listScrollPane, BorderLayout.LINE_START);
 
         // Détail solution : reste de l'espace disponible au centre et à droite
         solutionDetail = new JTextArea(8,40);
@@ -89,32 +73,6 @@ public class LayoutTest2 extends JFrame {
                                 BorderFactory.createEmptyBorder(5,5,5,5)),
                         areaScrollPane.getBorder()));
         add(areaScrollPane, BorderLayout.CENTER);
-
-        solutions = new Vector<>();
-        for(int i=0;i<10;i++) {
-            EstimateSolution sol = new EstimateSolution();
-            sol.Description = "Solution n°" + i;
-            solutions.add(sol);
-        }
-        solutionsList = new JList(solutions);
-        solutionsList.setBorder(BorderFactory.createEmptyBorder(10,10,10,10)); // marge à l'intérieur de la liste
-        listScrollPane = new JScrollPane(solutionsList);
-        /*
-        solutionsList.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent mouseEvent) {
-                JList list = (JList)mouseEvent.getSource();
-                EstimateSolution solution = (EstimateSolution)list.getSelectedValue();
-                if (mouseEvent.getClickCount() == 1) {
-                    EstimateTechDetails estimateTechDetails =applicationContext.getBean("estimateTechDetailsImpl",EstimateTechDetails.class);
-                    solutionDetail.setText(estimateTechDetails.GetTechDetails(solution));
-                }
-            }
-        });
-        */
-        listScrollPane.setBorder(BorderFactory.createEmptyBorder(0,5,0,5)); // espace à l'extérieur
-        add(listScrollPane, BorderLayout.LINE_START);
-
 
         setVisible(true);
     }

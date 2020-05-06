@@ -11,6 +11,8 @@ public class FormulaireSaisie extends JFrame {
     public FormulaireSaisie() {
         super("Formulaire de saisie");
         setSize(600,400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        //setLayout(new BorderLayout()); // par défaut
 
         // Partie supérieure avec les contrôles de saisie
         JPanel northPanel = new JPanel();
