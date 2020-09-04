@@ -18,7 +18,7 @@ public class Fenetre extends JFrame {
         this.horloge = new Horloge();
 
         // On place un écouteur sur l'horloge
-        this.horloge.addObservateur(new Observateur() {
+        this.horloge.addObserver(new Observer() {
             @Override
             public void update(String hour) {
                 label.setText(hour);

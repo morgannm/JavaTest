@@ -1,5 +1,5 @@
 package DesignPatterns.Observer;
 
-public interface Observateur {
+public interface Observer {
     void update(String hour);
 }

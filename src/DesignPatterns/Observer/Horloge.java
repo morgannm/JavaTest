@@ -7,7 +7,7 @@ public class Horloge implements Observable {
     //Objet calendrier pour récupérer l'heure courante
     private Calendar cal;
     private String hour = "";
-    private ArrayList<Observateur> listObservateur = new ArrayList<Observateur>();
+    private ArrayList<Observer> listObservateur = new ArrayList<Observer>();
 
     public void run() {
         while(true){
@@ -31,7 +31,7 @@ public class Horloge implements Observable {
                             );
 
             // ON avertit les observateurs que l'heure a été mise à jour
-            this.updateObservateur();
+            this.updateObserver();
 
             try {
                 Thread.sleep(1000);
@@ -42,18 +42,18 @@ public class Horloge implements Observable {
     }
 
     @Override
-    public void addObservateur(Observateur obs) {
+    public void addObserver(Observer obs) {
         this.listObservateur.add(obs);
     }
 
     @Override
-    public void updateObservateur() {
-        for(Observateur obs : listObservateur)
+    public void updateObserver() {
+        for(Observer obs : listObservateur)
             obs.update(this.hour);
     }
 
     @Override
-    public void delObservateur() {
-        this.listObservateur = new ArrayList<Observateur>();
+    public void removeObserver() {
+        this.listObservateur = new ArrayList<Observer>();
     }
 }
