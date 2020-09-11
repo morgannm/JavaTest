@@ -1,0 +1,1 @@
+- Test1.java : le thread principal ne reprend la main qu'à la fin de l'exécution de la méthode UpdateButton
