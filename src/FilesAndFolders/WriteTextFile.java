@@ -27,7 +27,7 @@ public class WriteTextFile {
             datestring = datestring.replace(' ', '_');
             File fichier = new File("C:\\Temp\\" + datestring + ".txt");
             FileOutputStream fileStream = new FileOutputStream(fichier);
-            String text = "Test2";
+            String text = "Test2AvecEDT";
             //byte[] data = text.getBytes();
             byte[] data = datestring.getBytes();
             fileStream.write(data, 0, data.length);
