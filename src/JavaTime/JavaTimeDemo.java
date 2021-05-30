@@ -1,9 +1,6 @@
 package JavaTime;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
+import java.time.*;
 
 public class JavaTimeDemo {
     public static void main(String[] args) {
@@ -31,5 +28,13 @@ public class JavaTimeDemo {
         //On peut même parser une date depuis un String
         LocalTime parsed = LocalTime.parse("20:15:30");
         System.out.println("Heure parsée : " + parsed);
+
+        System.out.println("=============================");
+        LocalDate aujourdhui = LocalDate.now();
+        System.out.println("Aujourd'hui : " + aujourdhui);
+        LocalDate hier = aujourdhui.minusDays(1);
+        System.out.println("Hier : " + hier);
+        Period diff = Period.between(hier,aujourdhui);
+        System.out.println("Différence : " + diff.getDays());
     }
 }

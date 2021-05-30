@@ -1,8 +1,11 @@
 package JavaTime;
 
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.Month;
+import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
+import java.util.Date;
 
 public class DateTimeManipulationDemo {
     public static void main(String[] args) {
@@ -16,5 +19,14 @@ public class DateTimeManipulationDemo {
         System.out.println("+4 heures : " + ldt.plus(4, ChronoUnit.HOURS));
         System.out.println("-5 secondes : " + ldt.minus(5, ChronoUnit.SECONDS));
         System.out.println("-38 minutes : " + ldt.minusMinutes(38));
+        System.out.println("-1 jour : " + ldt.minus(1, ChronoUnit.DAYS));
+
+        // Modification d'une date java.util.date en utilisant java.util.time
+        System.out.println("====================================");
+        Date dateAujourdhui = Date.from(Instant.now());
+        System.out.println("Aujourd'hui : " + dateAujourdhui);
+        LocalDateTime hier = LocalDateTime.ofInstant(dateAujourdhui.toInstant(), ZoneId.systemDefault()).minusDays(1);
+        Date dateHier = Date.from(hier.atZone(ZoneId.systemDefault()).toInstant());
+        System.out.println("Hier : " + dateHier);
     }
 }
