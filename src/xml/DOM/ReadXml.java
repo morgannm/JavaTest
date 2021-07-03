@@ -17,6 +17,7 @@ public class ReadXml {
         openXMLFile("resources\\NHL_Schema_ref.xml", false);
         System.out.println("Terminé");
     }
+    
 
     private static void openXMLFile(String pathName, boolean validate) {
         System.out.println("Ouverture de " + pathName);
