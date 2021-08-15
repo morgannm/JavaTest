@@ -39,6 +39,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.table.TableColumnModel;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.event.MouseAdapter;
@@ -50,28 +51,49 @@ public class SimpleTableDemo extends JPanel {
     public SimpleTableDemo() {
         super(new GridLayout(1,0));
 
-        String[] columnNames = {"First Name",
-                                "Last Name",
-                                "Sport",
-                                "# of Years",
-                                "Vegetarian"};
+        String[] columnNames = {"Nom",
+                                "Ville",
+                                "Conference",
+                                "Division",
+                                "Date création",
+                                "Arena",
+                                "Coupe Stanley"};
 
         Object[][] data = {
-	    {"Kathy", "Smith",
-	     "Snowboarding", new Integer(5), new Boolean(false)},
-	    {"John", "Doe",
-	     "Rowing", new Integer(3), new Boolean(true)},
-	    {"Sue", "Black",
-	     "Knitting", new Integer(2), new Boolean(false)},
-	    {"Jane", "White",
-	     "Speed reading", new Integer(20), new Boolean(true)},
-	    {"Joe", "Brown",
-	     "Pool", new Integer(10), new Boolean(false)}
+    	    {"Golden Knights", "Las Vegas", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Rangers", "New York", "East", "Pacific", new Integer(1926), "Madison Square Garden", new Boolean(false)},
+            {"Bruins", "Boston", "East", "Atlantic", new Integer(2018), "T-Mobile Arena", new Boolean(true)},
+            {"Penguins", "Pittsburgh", "East", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Lightning", "Tampa Bay", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Capitals", "Washington", "East", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Canucks", "Vancouver", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Red Wings", "Detroit", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Flyers", "Philadelphie", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Ducks", "Anaheim", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Kings", "Los Angeles", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Blackhawks", "Chicago", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Senators", "Ottawa", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)},
+            {"Canadiens", "Montreal", "West", "Pacific", new Integer(2018), "T-Mobile Arena", new Boolean(false)}
         };
 
         final JTable table = new JTable(data, columnNames);
-        table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+
+        TableColumnModel columnModel = table.getColumnModel();
+        columnModel.getColumn(0).setPreferredWidth(100);
+        columnModel.getColumn(1).setPreferredWidth(150);
+        columnModel.getColumn(2).setPreferredWidth(100);
+        columnModel.getColumn(3).setPreferredWidth(100);
+        columnModel.getColumn(4).setPreferredWidth(100);
+        columnModel.getColumn(5).setPreferredWidth(150);
+        columnModel.getColumn(6).setPreferredWidth(100);
+
+        /*
+        table.setPreferredScrollableViewportSize(new Dimension(700, 400));
         table.setFillsViewportHeight(true);
+        */
+
+        // Largeur des colonnes ne s'adaptent pas automatiquement pour remplir toute la largeur => permet le scroll horizontal
+        table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
 
         if (DEBUG) {
             table.addMouseListener(new MouseAdapter() {
@@ -81,8 +103,8 @@ public class SimpleTableDemo extends JPanel {
             });
         }
 
-        //Create the scroll pane and add the table to it.
-        JScrollPane scrollPane = new JScrollPane(table);
+        // Barres de scroll horizontales et verticales
+        JScrollPane scrollPane = new JScrollPane(table, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
 
         //Add the scroll pane to this panel.
         add(scrollPane);
@@ -121,8 +143,8 @@ public class SimpleTableDemo extends JPanel {
 
         //Display the window.
         frame.pack();
+        frame.setSize(1000,500);
         frame.setLocationRelativeTo(null);
-        frame.setSize(500,500);
         frame.setVisible(true);
     }
 
