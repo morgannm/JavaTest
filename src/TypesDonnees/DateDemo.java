@@ -35,5 +35,7 @@ public class DateDemo {
             e.printStackTrace();
         }
         System.out.println(dateStr + " -> " + dt);
+
+        // Différence entre 2 dates : voir JavaTime/PeriodDurationDemo
     }
 }
