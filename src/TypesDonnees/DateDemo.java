@@ -1,8 +1,10 @@
 package TypesDonnees;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
 import java.util.Date;
 
 /**
@@ -35,6 +37,11 @@ public class DateDemo {
             e.printStackTrace();
         }
         System.out.println(dateStr + " -> " + dt);
+
+        // Date -> String
+        Date maintenant = Date.from(Instant.now());
+        DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
+        System.out.println("Conversion et Formatage Date en String : " + df.format(maintenant));
 
         // Différence entre 2 dates : voir JavaTime/PeriodDurationDemo
     }
