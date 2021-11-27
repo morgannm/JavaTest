@@ -45,10 +45,19 @@ public class FormulaireSepareEnDeuxVerticalement extends JFrame {
 
         // Boutons de commande en bas
         JPanel commandPanel = new JPanel();
+        commandPanel.setLayout(new BorderLayout());
+        JPanel leftCommandPanel = new JPanel();
+        JButton precedentButton = new JButton("Précédent");
+        JButton suivantButton = new JButton("Suivant");
+        leftCommandPanel.add(precedentButton);
+        leftCommandPanel.add(suivantButton);
+        commandPanel.add(leftCommandPanel,BorderLayout.WEST);
+        JPanel rightCommandPanel = new JPanel();
         JButton okButton = new JButton("Ok");
         JButton annulerButton = new JButton("Annuler");
-        commandPanel.add(okButton);
-        commandPanel.add(annulerButton);
+        rightCommandPanel.add(okButton);
+        rightCommandPanel.add(annulerButton);
+        commandPanel.add(rightCommandPanel,BorderLayout.EAST);
 
         // Solution 1 : Partie formulaire à largeur variable sur tout l'espace disponible à gauche
         add(leftPanel, BorderLayout.CENTER); // occupe tout le reste de la largeur et s'adapte à la largeur de la fenêtre
