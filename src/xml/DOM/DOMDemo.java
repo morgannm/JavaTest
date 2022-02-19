@@ -18,7 +18,7 @@ public class DOMDemo {
 
     public static void main(String args[]) {
         ReadXmlFile();
-        ParseXmlFileFromStream();
+        //ParseXmlFileFromStream();
     }
 
     private static void ParseXmlFileFromStream() {
@@ -68,6 +68,8 @@ public class DOMDemo {
 
             final Element root = document.getDocumentElement();
             System.out.println("Nom de la racine : " + root.getNodeName());
+
+            Node teams2 = root.getFirstChild();
 
             final NodeList nodeList = root.getChildNodes();
             for (int i=0; i<nodeList.getLength(); i++) {

@@ -40,8 +40,8 @@ public class ReadXml {
         try
         {
             xmlDoc = builder.parse(fic);
-            Element root = xmlDoc.getDocumentElement();
-            System.out.println("Root element : " + root.getNodeName());
+            Element Nhl = xmlDoc.getDocumentElement();
+            System.out.println("Root element : " + Nhl.getNodeName());
         }
         catch(SAXException | IOException e)
         {
