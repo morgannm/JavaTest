@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Application Version</key>
+	<!--
+	<string>12.12.2.2</string>
+	<key>Date</key><date>2021-11-11T10:45:37Z</date>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Library Persistent ID</key><string>42A68A40A070335A</string>
+	<key>Tracks</key>
+	-->
+	<dict>
+		<key>3091</key>
+		<dict>
+			<key>Track ID</key><integer>3091</integer>
+			<key>Size</key><integer>2320858</integer>
+			<key>Total Time</key><integer>115408</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3548172463</integer>
+			<key>Play Date UTC</key><date>2016-06-07T17:27:43Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAAD</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>WMFW (We Must Fight And Win) Fm</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 0000021C 000000CD 00002A0D 00001964 00016F72 0000F8C6 00007E52 0000819D 0000E52F 000150A1</string>
+			<key>Location</key><string>file://localhost/E:/Musique/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/01%20WMFW%20(We%20Must%20Fight%20And%20Win)%20Fm.mp3</string>
+		</dict>
+		<key>3093</key>
+		<dict>
+			<key>Track ID</key><integer>3093</integer>
+			<key>Size</key><integer>6371161</integer>
+			<key>Total Time</key><integer>316917</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3568653972</integer>
+			<key>Play Date UTC</key><date>2017-01-30T19:46:12Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAAE</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>United Minds</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000571 000000F9 00006C7F 00002E0F 000056BC 00005B05 000082AC 0000810C 00005497 0003C6F0</string>
+			<key>Location</key><string>file://localhost/E:/Musique/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/02%20United%20Minds.mp3</string>
+		</dict>
+		<key>3095</key>
+		<dict>
+			<key>Track ID</key><integer>3095</integer>
+			<key>Size</key><integer>3200845</integer>
+			<key>Total Time</key><integer>159190</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:05Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3400513245</integer>
+			<key>Play Date UTC</key><date>2011-10-03T17:00:45Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAAF</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Ache'n For Acres</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 000003F2 0000009C 000046FC 0000158A 00001CE0 0000407D 00007F86 00008252 0000B7FA 00002EF0</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/03%20Ache'n%20For%20Acres.mp3</string>
+		</dict>
+		<key>3097</key>
+		<dict>
+			<key>Track ID</key><integer>3097</integer>
+			<key>Size</key><integer>5630825</integer>
+			<key>Total Time</key><integer>280084</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:05Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3399726104</integer>
+			<key>Play Date UTC</key><date>2011-09-24T14:21:44Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB0</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>United Front</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 0000021B 00000047 000022B1 00001858 0003E27D 0001FEB6 00007CA4 000080A3 00042D2F 0001FAD6</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/04%20United%20Front.mp3</string>
+		</dict>
+		<key>3099</key>
+		<dict>
+			<key>Track ID</key><integer>3099</integer>
+			<key>Size</key><integer>3845622</integer>
+			<key>Total Time</key><integer>191268</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3698116059</integer>
+			<key>Play Date UTC</key><date>2021-03-09T05:27:39Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2017-10-18T18:23:09Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB1</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Africa's Inside Me</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 000004DC 00000080 0000604F 00003243 0001802F 0000078D 000080F6 00008188 0001ECC1 0000A758</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/05%20Africa's%20Inside%20Me.mp3</string>
+		</dict>
+		<key>3101</key>
+		<dict>
+			<key>Track ID</key><integer>3101</integer>
+			<key>Size</key><integer>6797504</integer>
+			<key>Total Time</key><integer>338128</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3399741261</integer>
+			<key>Play Date UTC</key><date>2011-09-24T18:34:21Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB2</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Pride</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000220 00000064 00004860 00001795 0003F5E0 00046582 00007EDB 000081D1 00012305 00005A1A</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/06%20Pride.mp3</string>
+		</dict>
+		<key>3103</key>
+		<dict>
+			<key>Track ID</key><integer>3103</integer>
+			<key>Size</key><integer>4184274</integer>
+			<key>Total Time</key><integer>208117</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3647319424</integer>
+			<key>Play Date UTC</key><date>2019-07-30T06:17:04Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2017-03-04T21:54:51Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB3</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Shell</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000174 0000005D 00002F17 00001930 00031992 0002C858 000085EA 0000802E 00004DC1 0000644E</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/07%20Shell.mp3</string>
+		</dict>
+		<key>3105</key>
+		<dict>
+			<key>Track ID</key><integer>3105</integer>
+			<key>Size</key><integer>3380416</integer>
+			<key>Total Time</key><integer>168124</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3525617123</integer>
+			<key>Play Date UTC</key><date>2015-09-20T16:05:23Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2015-09-22T16:46:44Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB4</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Mister Landlord</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000286 00000058 000056A0 000018FC 00001ED0 0001869C 00007E8F 00007F41 000010A1 0001326D</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/08%20Mister%20Landlord.mp3</string>
+		</dict>
+		<key>3107</key>
+		<dict>
+			<key>Track ID</key><integer>3107</integer>
+			<key>Size</key><integer>5025958</integer>
+			<key>Total Time</key><integer>249991</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:06Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3550418089</integer>
+			<key>Play Date UTC</key><date>2016-07-03T17:14:49Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB5</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Warm Sentiments</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 000002C3 0000002C 00006507 00000831 000097BC 00017C82 00007FDA 00008067 00010E4E 00010E4E</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/09%20Warm%20Sentiments.mp3</string>
+		</dict>
+		<key>3109</key>
+		<dict>
+			<key>Track ID</key><integer>3109</integer>
+			<key>Size</key><integer>2367566</integer>
+			<key>Total Time</key><integer>117733</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:07Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3540570495</integer>
+			<key>Play Date UTC</key><date>2016-03-11T18:48:15Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB6</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>The Drum</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000029 0000001C 00001147 00000B31 0001BED6 0001BD1A 00007E50 00007726 0001BED6 0001BED6</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/10%20The%20Drum.mp3</string>
+		</dict>
+		<key>3111</key>
+		<dict>
+			<key>Track ID</key><integer>3111</integer>
+			<key>Size</key><integer>5457559</integer>
+			<key>Total Time</key><integer>271464</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:07Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3404898384</integer>
+			<key>Play Date UTC</key><date>2011-11-23T12:06:24Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB7</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>In The Sunshine</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000238 00000055 000048EE 000018CA 00000343 00000343 00008218 000082F6 000000B6 000000B6</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/11%20In%20The%20Sunshine.mp3</string>
+		</dict>
+		<key>3113</key>
+		<dict>
+			<key>Track ID</key><integer>3113</integer>
+			<key>Size</key><integer>3089538</integer>
+			<key>Total Time</key><integer>153652</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:07Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3533546625</integer>
+			<key>Play Date UTC</key><date>2015-12-21T11:43:45Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2015-12-22T11:22:18Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB8</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Kneelin' At My Altar</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000268 00000023 00002207 000010E6 00015553 00014F00 00007F4B 00007DC0 0000ED0A 0000ED0A</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/12%20Kneelin'%20At%20My%20Altar.mp3</string>
+		</dict>
+		<key>3115</key>
+		<dict>
+			<key>Track ID</key><integer>3115</integer>
+			<key>Size</key><integer>4040945</integer>
+			<key>Total Time</key><integer>200986</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:08Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3690992703</integer>
+			<key>Play Date UTC</key><date>2020-12-16T18:45:03Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2020-07-06T03:13:33Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DAB9</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Fountain Of Youth</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 0000028C 00000008 00004FC9 000010C0 00000C72 0002E5A1 00007F66 000080C3 0000520A 00018492</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/13%20Fountain%20Of%20Youth.mp3</string>
+		</dict>
+		<key>3117</key>
+		<dict>
+			<key>Track ID</key><integer>3117</integer>
+			<key>Size</key><integer>5076361</integer>
+			<key>Total Time</key><integer>252499</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:08Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3562430364</integer>
+			<key>Play Date UTC</key><date>2016-11-19T18:59:24Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-11-19T19:00:02Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DABA</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Ease My Mind</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 000002B6 00000098 00004B5C 00003017 00009DF5 0002BD87 00007DF1 00007E56 00003853 00005F00</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/14%20Ease%20My%20Mind.mp3</string>
+		</dict>
+		<key>3119</key>
+		<dict>
+			<key>Track ID</key><integer>3119</integer>
+			<key>Size</key><integer>4868959</integer>
+			<key>Total Time</key><integer>242181</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2015-07-05T06:09:08Z</date>
+			<key>Date Added</key><date>2005-04-30T17:09:41Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3563379987</integer>
+			<key>Play Date UTC</key><date>2016-11-30T18:46:27Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>BAC6316B1B38DABB</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Praisin' U</string>
+			<key>Artist</key><string>Arrested Development</string>
+			<key>Album Artist</key><string>Arrested Development</string>
+			<key>Album</key><string>Zingalamaduni</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Comments</key><string> 00000143 00000054 0000179F 0000117B 0002ECE0 00009239 00007F9E 00007FA2 0000CE39 0001DA2F</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Arrested%20Development/Zingalamaduni/15%20Praisin'%20U.mp3</string>
+		</dict>
+		<key>3121</key>
+		<dict>
+			<key>Track ID</key><integer>3121</integer>
+			<key>Size</key><integer>4704432</integer>
+			<key>Total Time</key><integer>240789</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2005-04-30T17:12:08Z</date>
+			<key>Date Added</key><date>2005-04-30T17:11:49Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3546684847</integer>
+			<key>Play Date UTC</key><date>2016-05-21T12:14:07Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-05-25T17:56:13Z</date>
+			<key>Release Date</key><date>2005-03-15T08:00:00Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>20</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>BAC6316B1B38DABD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Hombre</string>
+			<key>Artist</key><string>M.I.A.</string>
+			<key>Album Artist</key><string>M.I.A.</string>
+			<key>Album</key><string>Hombre - Single</string>
+			<key>Genre</key><string>Electronique</string>
+			<key>Kind</key><string>Fichier audio AAC protégé</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/M.I.A_/Hombre%20-%20Single/01%20Hombre.m4p</string>
+		</dict>
+		<key>3123</key>
+		<dict>
+			<key>Track ID</key><integer>3123</integer>
+			<key>Size</key><integer>3111740</integer>
+			<key>Total Time</key><integer>153547</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:14Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3446972250</integer>
+			<key>Play Date UTC</key><date>2013-03-24T11:17:30Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB2E</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Castilla</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/12%20Castilla.mp3</string>
+		</dict>
+		<key>3125</key>
+		<dict>
+			<key>Track ID</key><integer>3125</integer>
+			<key>Size</key><integer>7870728</integer>
+			<key>Total Time</key><integer>391497</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:14Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>102</integer>
+			<key>Play Date</key><integer>3706158469</integer>
+			<key>Play Date UTC</key><date>2021-06-10T06:27:49Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2020-09-12T04:31:02Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB2F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Asturias</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/13%20Asturias.mp3</string>
+		</dict>
+		<key>3127</key>
+		<dict>
+			<key>Track ID</key><integer>3127</integer>
+			<key>Size</key><integer>6286138</integer>
+			<key>Total Time</key><integer>312267</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:15Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3687417403</integer>
+			<key>Play Date UTC</key><date>2020-11-05T09:36:43Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB30</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Aragón</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/14%20Arag%C3%B3n.mp3</string>
+		</dict>
+		<key>3129</key>
+		<dict>
+			<key>Track ID</key><integer>3129</integer>
+			<key>Size</key><integer>6020733</integer>
+			<key>Total Time</key><integer>298997</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:15Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3703141374</integer>
+			<key>Play Date UTC</key><date>2021-05-06T08:22:54Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB31</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Cádiz</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/15%20C%C3%A1diz.mp3</string>
+		</dict>
+		<key>3131</key>
+		<dict>
+			<key>Track ID</key><integer>3131</integer>
+			<key>Size</key><integer>5255347</integer>
+			<key>Total Time</key><integer>260728</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:16Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3609673561</integer>
+			<key>Play Date UTC</key><date>2018-05-20T13:06:01Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB32</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Sevilla</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/16%20Sevilla.mp3</string>
+		</dict>
+		<key>3133</key>
+		<dict>
+			<key>Track ID</key><integer>3133</integer>
+			<key>Size</key><integer>6840980</integer>
+			<key>Total Time</key><integer>340009</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:16Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>47</integer>
+			<key>Play Date</key><integer>3705927569</integer>
+			<key>Play Date UTC</key><date>2021-06-07T14:19:29Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB33</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Granada</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/17%20Granada.mp3</string>
+		</dict>
+		<key>3135</key>
+		<dict>
+			<key>Track ID</key><integer>3135</integer>
+			<key>Size</key><integer>3772638</integer>
+			<key>Total Time</key><integer>186592</integer>
+			<key>Track Number</key><integer>18</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:16Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3669027349</integer>
+			<key>Play Date UTC</key><date>2020-04-06T12:15:49Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Rating Computed</key><true/>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB34</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Cataluña</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/18%20Catalu%C3%B1a.mp3</string>
+		</dict>
+		<key>3137</key>
+		<dict>
+			<key>Track ID</key><integer>3137</integer>
+			<key>Size</key><integer>6754776</integer>
+			<key>Total Time</key><integer>335699</integer>
+			<key>Track Number</key><integer>19</integer>
+			<key>Track Count</key><integer>19</integer>
+			<key>Year</key><integer>1989</integer>
+			<key>Date Modified</key><date>2006-06-18T17:05:17Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:11Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>100</integer>
+			<key>Play Date</key><integer>3705481042</integer>
+			<key>Play Date UTC</key><date>2021-06-02T10:17:22Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-01-23T05:45:43Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB35</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Córdoba</string>
+			<key>Artist</key><string>Albeniz Isaac</string>
+			<key>Composer</key><string>Albeniz Isaac</string>
+			<key>Album</key><string>Suite espagnole</string>
+			<key>Genre</key><string>Classique</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Albeniz%20Isaac/Suite%20espagnole/19%20C%C3%B3rdoba.mp3</string>
+		</dict>
+		<key>3139</key>
+		<dict>
+			<key>Track ID</key><integer>3139</integer>
+			<key>Size</key><integer>3591228</integer>
+			<key>Total Time</key><integer>204937</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>2</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2007-03-10T17:40:02Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:21Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>38</integer>
+			<key>Play Date</key><integer>3680207610</integer>
+			<key>Play Date UTC</key><date>2020-08-13T21:53:30Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2011-08-13T14:25:24Z</date>
+			<key>Release Date</key><date>2004-11-29T08:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB36</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Ma philosophie</string>
+			<key>Artist</key><string>Amel Bent</string>
+			<key>Album Artist</key><string>Amel Bent</string>
+			<key>Composer</key><string>Blair Mackichan</string>
+			<key>Album</key><string>Ma philosophie - Single </string>
+			<key>Genre</key><string>Chanson Française</string>
+			<key>Kind</key><string>Fichier audio AAC protégé</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Amel%20Bent/Ma%20philosophie%20-%20Single/01%20Ma%20philosophie.m4p</string>
+		</dict>
+		<key>3141</key>
+		<dict>
+			<key>Track ID</key><integer>3141</integer>
+			<key>Size</key><integer>4885853</integer>
+			<key>Total Time</key><integer>243957</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:50Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>39</integer>
+			<key>Play Date</key><integer>3705770290</integer>
+			<key>Play Date UTC</key><date>2021-06-05T18:38:10Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-01-02T10:08:16Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB37</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Old Artist</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/01%20Old%20Artist.mp3</string>
+		</dict>
+		<key>3143</key>
+		<dict>
+			<key>Track ID</key><integer>3143</integer>
+			<key>Size</key><integer>4645002</integer>
+			<key>Total Time</key><integer>231915</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:50Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3710608670</integer>
+			<key>Play Date UTC</key><date>2021-07-31T18:37:50Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB38</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>All Time</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/02%20All%20Time.mp3</string>
+		</dict>
+		<key>3145</key>
+		<dict>
+			<key>Track ID</key><integer>3145</integer>
+			<key>Size</key><integer>7467798</integer>
+			<key>Total Time</key><integer>373054</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3375627000</integer>
+			<key>Play Date UTC</key><date>2010-12-19T17:10:00Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB39</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>So Few Words</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/03%20So%20Few%20Words.mp3</string>
+		</dict>
+		<key>3147</key>
+		<dict>
+			<key>Track ID</key><integer>3147</integer>
+			<key>Size</key><integer>5083860</integer>
+			<key>Total Time</key><integer>253857</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:52Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>37</integer>
+			<key>Play Date</key><integer>3698515004</integer>
+			<key>Play Date UTC</key><date>2021-03-13T20:16:44Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2014-10-05T10:32:10Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3A</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Headspace</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/04%20Headspace.mp3</string>
+		</dict>
+		<key>3149</key>
+		<dict>
+			<key>Track ID</key><integer>3149</integer>
+			<key>Size</key><integer>5428675</integer>
+			<key>Total Time</key><integer>271098</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:53Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>6</integer>
+			<key>Play Date</key><integer>3566217662</integer>
+			<key>Play Date UTC</key><date>2017-01-02T15:01:02Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3B</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Darkroom</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/05%20Darkroom.mp3</string>
+		</dict>
+		<key>3151</key>
+		<dict>
+			<key>Track ID</key><integer>3151</integer>
+			<key>Size</key><integer>6405134</integer>
+			<key>Total Time</key><integer>319921</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:53Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>94</integer>
+			<key>Play Date</key><integer>3695158070</integer>
+			<key>Play Date UTC</key><date>2021-02-02T23:47:50Z</date>
+			<key>Skip Count</key><integer>8</integer>
+			<key>Skip Date</key><date>2021-10-13T05:11:05Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3C</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Londinium</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/06%20Londinium.mp3</string>
+		</dict>
+		<key>3153</key>
+		<dict>
+			<key>Track ID</key><integer>3153</integer>
+			<key>Size</key><integer>5568169</integer>
+			<key>Total Time</key><integer>278073</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:54Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3564759025</integer>
+			<key>Play Date UTC</key><date>2016-12-16T17:50:25Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3D</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Man-Made</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/07%20Man-Made.mp3</string>
+		</dict>
+		<key>3155</key>
+		<dict>
+			<key>Track ID</key><integer>3155</integer>
+			<key>Size</key><integer>5566606</integer>
+			<key>Total Time</key><integer>277995</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:55Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>127</integer>
+			<key>Play Date</key><integer>3708618339</integer>
+			<key>Play Date UTC</key><date>2021-07-08T17:45:39Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2018-03-03T06:08:29Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3E</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Nothing Else</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/08%20Nothing%20Else.mp3</string>
+		</dict>
+		<key>3157</key>
+		<dict>
+			<key>Track ID</key><integer>3157</integer>
+			<key>Size</key><integer>5338294</integer>
+			<key>Total Time</key><integer>266579</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:55Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3526125849</integer>
+			<key>Play Date UTC</key><date>2015-09-26T13:24:09Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-01-02T10:37:19Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB3F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Skyscraper</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/09%20Skyscraper.mp3</string>
+		</dict>
+		<key>3159</key>
+		<dict>
+			<key>Track ID</key><integer>3159</integer>
+			<key>Size</key><integer>4627240</integer>
+			<key>Total Time</key><integer>231026</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:56Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>113</integer>
+			<key>Play Date</key><integer>3710699306</integer>
+			<key>Play Date UTC</key><date>2021-08-01T19:48:26Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2016-01-02T10:33:14Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB40</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Parvaneh</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/10%20Parvaneh.mp3</string>
+		</dict>
+		<key>3161</key>
+		<dict>
+			<key>Track ID</key><integer>3161</integer>
+			<key>Size</key><integer>7946888</integer>
+			<key>Total Time</key><integer>397008</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:57Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3710694341</integer>
+			<key>Play Date UTC</key><date>2021-08-01T18:25:41Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-10-02T05:12:21Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB41</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Beautiful World</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/11%20Beautiful%20World.mp3</string>
+		</dict>
+		<key>3163</key>
+		<dict>
+			<key>Track ID</key><integer>3163</integer>
+			<key>Size</key><integer>2865544</integer>
+			<key>Total Time</key><integer>142942</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:57Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3679898600</integer>
+			<key>Play Date UTC</key><date>2020-08-10T08:03:20Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-01-02T10:17:50Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB42</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Organ Song</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/12%20Organ%20Song.mp3</string>
+		</dict>
+		<key>3165</key>
+		<dict>
+			<key>Track ID</key><integer>3165</integer>
+			<key>Size</key><integer>6995502</integer>
+			<key>Total Time</key><integer>349440</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2007-10-30T22:57:58Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3562842091</integer>
+			<key>Play Date UTC</key><date>2016-11-24T13:21:31Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5DFE2FB08174EB43</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Last Five</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Londinium</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Londinium/13%20Last%20Five.mp3</string>
+		</dict>
+		<key>3167</key>
+		<dict>
+			<key>Track ID</key><integer>3167</integer>
+			<key>Size</key><integer>8091269</integer>
+			<key>Total Time</key><integer>403905</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>41</integer>
+			<key>Play Date</key><integer>3686308953</integer>
+			<key>Play Date UTC</key><date>2020-10-23T12:42:33Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2010-11-14T07:43:20Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB44</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Noise</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-01%20Noise.mp3</string>
+		</dict>
+		<key>3169</key>
+		<dict>
+			<key>Track ID</key><integer>3169</integer>
+			<key>Size</key><integer>6303972</integer>
+			<key>Total Time</key><integer>314540</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3691138519</integer>
+			<key>Play Date UTC</key><date>2020-12-18T11:15:19Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2019-12-24T06:42:27Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB45</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Fuck U</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-02%20Fuck%20U.mp3</string>
+		</dict>
+		<key>3171</key>
+		<dict>
+			<key>Track ID</key><integer>3171</integer>
+			<key>Size</key><integer>11965228</integer>
+			<key>Total Time</key><integer>597603</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>32</integer>
+			<key>Play Date</key><integer>3690979191</integer>
+			<key>Play Date UTC</key><date>2020-12-16T14:59:51Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2018-11-06T11:27:50Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB46</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Waste</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-03%20Waste.mp3</string>
+		</dict>
+		<key>3173</key>
+		<dict>
+			<key>Track ID</key><integer>3173</integer>
+			<key>Size</key><integer>8233375</integer>
+			<key>Total Time</key><integer>411010</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>60</integer>
+			<key>Play Date</key><integer>3692287867</integer>
+			<key>Play Date UTC</key><date>2020-12-31T18:31:07Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2020-10-24T19:03:51Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB47</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Sleep</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-04%20Sleep.mp3</string>
+		</dict>
+		<key>3175</key>
+		<dict>
+			<key>Track ID</key><integer>3175</integer>
+			<key>Size</key><integer>1268083</integer>
+			<key>Total Time</key><integer>62876</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:51Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>4</integer>
+			<key>Play Date</key><integer>3525536789</integer>
+			<key>Play Date UTC</key><date>2015-09-19T17:46:29Z</date>
+			<key>Rating</key><integer>20</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB48</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Here</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-05%20Here.mp3</string>
+		</dict>
+		<key>3177</key>
+		<dict>
+			<key>Track ID</key><integer>3177</integer>
+			<key>Size</key><integer>5423124</integer>
+			<key>Total Time</key><integer>270497</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2004</integer>
+			<key>Date Modified</key><date>2015-07-05T05:29:52Z</date>
+			<key>Date Added</key><date>2005-04-30T19:59:22Z</date>
+			<key>Bit Rate</key><integer>160</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3694614220</integer>
+			<key>Play Date UTC</key><date>2021-01-27T16:43:40Z</date>
+			<key>Rating</key><integer>40</integer>
+			<key>Album Rating</key><integer>40</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Persistent ID</key><string>5DFE2FB08174EB49</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+			<key>Name</key><string>Get Out</string>
+			<key>Artist</key><string>Archive</string>
+			<key>Album</key><string>Noise</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Location</key><string>file://localhost/C:/Users/morga/Music/iTunes/iTunes%20Music/Archive/Noise/1-06%20Get%20Out.mp3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

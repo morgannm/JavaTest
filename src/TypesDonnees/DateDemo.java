@@ -5,6 +5,9 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -43,6 +46,17 @@ public class DateDemo {
         DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
         System.out.println("Conversion et Formatage Date en String : " + df.format(maintenant));
 
-        // Différence entre 2 dates : voir JavaTime/PeriodDurationDemo
+        // Calcul de dates :
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(maintenant);
+        // hier
+        calendar.add(Calendar.DATE,-1); // hier
+        Date dateCalc = calendar.getTime();
+        System.out.println("Hier : " + df.format(dateCalc));
+        // il y a 1 semaine
+        calendar.setTime(maintenant);
+        calendar.add(Calendar.DATE,-7);
+        dateCalc = calendar.getTime();
+        System.out.println("Il y a une semaine : " + df.format(dateCalc));
     }
 }

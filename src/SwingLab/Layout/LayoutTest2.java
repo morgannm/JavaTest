@@ -37,7 +37,7 @@ public class LayoutTest2 extends JFrame {
 
     private void Init() {
         setSize(1200,600);
-        setLocationRelativeTo(null);
+        setLocationRelativeTo(null); // centrer la fenêtre
 
         // Définition des éléments d'interfaces de la fenêtre
         topPanel = new JPanel();
