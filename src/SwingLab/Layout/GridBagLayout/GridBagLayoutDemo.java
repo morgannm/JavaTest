@@ -1,4 +1,4 @@
-package SwingLab.Layout;
+package SwingLab.Layout.GridBagLayout;
 
 import java.awt.*;
 import javax.swing.*;
