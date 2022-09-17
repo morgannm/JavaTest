@@ -1,5 +1,6 @@
 package TypesDonnees;
 
+// Test chaînes de caractères
 class Strings {
     public static void main(String[] args) {
         // caractère
