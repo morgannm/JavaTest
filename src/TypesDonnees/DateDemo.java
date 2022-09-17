@@ -43,7 +43,7 @@ public class DateDemo {
 
         // Date -> String
         Date maintenant = Date.from(Instant.now());
-        DateFormat df = new SimpleDateFormat("dd-MM-yyyy");
+        DateFormat df = new SimpleDateFormat("E dd-MM-yyyy");
         System.out.println("Conversion et Formatage Date en String : " + df.format(maintenant));
 
         // Calcul de dates :
