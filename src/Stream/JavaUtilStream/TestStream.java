@@ -26,6 +26,11 @@ public class TestStream {
         sp.forEach(System.out::println); // utilisation d'une référence de méthode
         //sp.forEach(System.out::println); // erreur si on essaye d'utiliser le stream une 2ème fois
 
+        // Récupérer le 1er objet en fonction du filtre
+        sp = listP.stream();
+        Optional<Personne> pers = sp.filter(x -> x.getPoids() > 50).findFirst();
+        System.out.println(pers.toString());
+
         // Méthode filter
         System.out.println();
         System.out.println("Filtre sur le poids > 50");
