@@ -13,5 +13,8 @@ public class FormatNumbers {
         Double result2 = test4/(test3*1000);
         System.out.println(result2);
         System.out.println(String.format("%.4f",result2));
+
+        // Formatage d'un entier complété à gauche avec des zéros
+        for (int i=0;i<=10;i++) System.out.println(String.format("%03d",i));
     }
 }
