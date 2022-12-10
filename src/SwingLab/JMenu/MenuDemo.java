@@ -121,11 +121,14 @@ public class MenuDemo extends JFrame {
         this.add(centerPanel, BorderLayout.CENTER);
 
         // Initialisation de la barre d'outils
+        toolBar.add(new JLabel("Test1  ")); // texte devant un outil
         toolBar.add(openToolButton);
+        openToolButton.setText("Ouvrir"); // texte devant plusieurs outils
         openToolButton.addActionListener(ouvrirListener);
         toolBar.add(lancerToolButton);
         lancerToolButton.addActionListener(lancerListener);
         toolBar.add(arreterToolButton);
+        toolBar.add(new JLabel("Test2  "));
         toolBar.add(editionToolButton);
         toolBar.add(quitterToolButton);
         quitterToolButton.addActionListener(quitterListener);
