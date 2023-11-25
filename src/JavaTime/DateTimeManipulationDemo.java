@@ -1,9 +1,6 @@
 package JavaTime;
 
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.Month;
-import java.time.ZoneId;
+import java.time.*;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -28,5 +25,9 @@ public class DateTimeManipulationDemo {
         LocalDateTime hier = LocalDateTime.ofInstant(dateAujourdhui.toInstant(), ZoneId.systemDefault()).minusDays(1);
         Date dateHier = Date.from(hier.atZone(ZoneId.systemDefault()).toInstant());
         System.out.println("Hier : " + dateHier);
+
+        // idem avec LocalDate au lieu de LocalDateTime
+        LocalDate ldtSup = LocalDate.from(LocalDateTime.ofInstant(dateAujourdhui.toInstant(), ZoneId.systemDefault())).minus(3, ChronoUnit.MONTHS);
+        System.out.println(ldtSup);
     }
 }
