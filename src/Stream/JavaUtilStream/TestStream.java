@@ -38,6 +38,12 @@ public class TestStream {
         sp.filter(x -> x.getPoids() > 50)
                 .forEach(System.out::println);
 
+        // Méthode filter : compter le nbre d'éléments en fonction de la valeur d'une propriété
+        System.out.println();
+        sp = listP.stream();
+        long nb = sp.filter(x -> x.getPoids() > 65).count();
+        System.out.println("Compter les éléments dont le poids > 65 : " + nb);
+
         // Méthode map : pour ne récupérer que certaines données
         System.out.println();
         System.out.println("Méthode map : pour ne récupérer que certaines données");

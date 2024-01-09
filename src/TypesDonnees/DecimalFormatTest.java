@@ -36,5 +36,17 @@ public class DecimalFormatTest
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
+        // Conversion en nombre d'une chaine de caratères représenant une valeur numérique au format US
+        System.out.println();
+        System.out.println("Conversion en nombre d'une chaine de caratères représenant une valeur numérique au format US");
+        strVal = "7,500,000";
+        try {
+            NumberFormat numberFormat = NumberFormat.getNumberInstance(Locale.US);
+            Double dNumber = numberFormat.parse(strVal).doubleValue(); // => 7500000.0
+            System.out.println("Conversion de : " + strVal + " =>" + dNumber);
+        } catch (ParseException e) {
+            System.out.println(e.toString());
+        }
     }
 }

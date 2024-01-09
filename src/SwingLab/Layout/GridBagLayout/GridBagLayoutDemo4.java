@@ -1,18 +1,29 @@
 package SwingLab.Layout.GridBagLayout;
 
+import SwingLab.JTable.JTableNHL;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class GridBagLayoutDemo3 extends JFrame {
-    public GridBagLayoutDemo3() {
-        super("GridBagLayoutDemo3");
-        setSize(600, 200);
+public class GridBagLayoutDemo4 extends JFrame {
+    JTableNHL tableNHL = new JTableNHL();
+
+    public GridBagLayoutDemo4() {
+        super("GridBagLayoutDemo4");
+        setSize(800, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         setLayout(new BorderLayout());
 
+        // Panel avec : Contrôles de saisie + Tableau
         JPanel northPanel = new JPanel();
-        northPanel.setLayout(new GridBagLayout());
+//        northPanel.setLayout(new BorderLayout());
+        northPanel.setLayout(new BoxLayout(northPanel,BoxLayout.PAGE_AXIS));
+        northPanel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
+
+        JPanel panel1 = new JPanel();
+//        northPanel.setLayout(new GridBagLayout());
+        panel1.setLayout(new GridBagLayout());
 
         JLabel serveurLabel = new JLabel("Serveur : ");
         JLabel uriLabel = new JLabel("URI : ");
@@ -32,19 +43,19 @@ public class GridBagLayoutDemo3 extends JFrame {
         gbc.weightx=0.2; // 20% de la largeur totale pour les libellés
         gbc.anchor = GridBagConstraints.LINE_START; // sinon le label se trouve au centre de la cellule
         gbc.insets = new Insets(5, 5, 0, 0);
-        northPanel.add(serveurLabel,gbc);
+        panel1.add(serveurLabel,gbc);
 
         gbc.gridx=0;
         gbc.gridy=1;
         gbc.gridwidth = gbc.gridheight=1;
         gbc.insets = new Insets(5, 5, 0, 0);
-        northPanel.add(uriLabel,gbc);
+        panel1.add(uriLabel,gbc);
 
         gbc.gridx=0;
         gbc.gridy=2;
         gbc.gridwidth = gbc.gridheight=1;
         gbc.insets = new Insets(5, 5, 0, 0);
-        northPanel.add(new JLabel("Port"),gbc);
+        panel1.add(new JLabel("Port"),gbc);
 
         // Colonne 1 : zones de saisie
         // Type de serveur
@@ -54,7 +65,7 @@ public class GridBagLayoutDemo3 extends JFrame {
 //        gbc.fill = GridBagConstraints.HORIZONTAL;   // pour que la combo soit étendue sur toute la largeur disponible
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.insets = new Insets(5, 0, 0, 5);
-        northPanel.add(serveursCourss,gbc);
+        panel1.add(serveursCourss,gbc);
 
         // URI
         gbc.gridx=1;
@@ -62,7 +73,7 @@ public class GridBagLayoutDemo3 extends JFrame {
         gbc.fill = GridBagConstraints.HORIZONTAL; // la zone de saisie sera étendue sur toute la largeur
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.insets = new Insets(5, 0, 0, 5);
-        northPanel.add(uriTextField,gbc);
+        panel1.add(uriTextField,gbc);
 
         // Port
         gbc.gridx=1;
@@ -71,7 +82,7 @@ public class GridBagLayoutDemo3 extends JFrame {
         gbc.fill = GridBagConstraints.NONE; // le TextField aura la largeur définie dans son constructeur
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.insets = new Insets(5, 0, 0, 5);
-        northPanel.add(portTextField,gbc);
+        panel1.add(portTextField,gbc);
 
         // Ligne 4 : bouton Exécuter
         gbc.gridx=1;
@@ -80,9 +91,16 @@ public class GridBagLayoutDemo3 extends JFrame {
         gbc.gridwidth = GridBagConstraints.REMAINDER;
         gbc.anchor = GridBagConstraints.LINE_END; // sinon le label se trouve au centre de la cellule
         gbc.insets = new Insets(5, 0, 0, 5);
-        northPanel.add(btnExecuter,gbc);
+        panel1.add(btnExecuter,gbc);
+        northPanel.add(panel1);
 
-        add(northPanel,BorderLayout.NORTH);
+        // Tableau sous les contrôles de saisie
+        JScrollPane scrollPane = new JScrollPane(tableNHL, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        scrollPane.setPreferredSize(new Dimension(800,200));
+        northPanel.add(scrollPane);
+
+
+        add(northPanel,BorderLayout.CENTER);
 
         JLabel infoLabel = new JLabel("Formulaire de saisie avec zones de saisie sur 80% de la largeur");
         infoLabel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
@@ -93,6 +111,6 @@ public class GridBagLayoutDemo3 extends JFrame {
     }
 
     public static void main(String[] args) {
-        GridBagLayoutDemo3 gridBagLayoutDemo3 = new GridBagLayoutDemo3();
+        GridBagLayoutDemo4 gridBagLayoutDemo4 = new GridBagLayoutDemo4();
     }
 }
