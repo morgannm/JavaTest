@@ -1,234 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="JavaTest:jar" />
-    </artifacts-to-build>
-  </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Stream/JavaUtilStream/TestStream.java" line="62" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f76983f-9e2b-4ab3-adfd-baa0f9900042" name="Default Changelist" comment="Test Focus sur TextField">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="440a89e0-8793-48a1-84c1-6367b4e705f1" name="Changes" comment="Test construction chemin et test de dossier">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaTest_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/morga.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypesDonnees/Arrondis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypesDonnees/Arrondis.java" afterDir="false" />
     </list>
-    <list id="e88b2ac8-d31f-44c5-ae86-ca88d4cfdd15" name="Revert &quot;Suppression commentaires&quot;" comment="" />
-    <list id="438bf988-285a-4b58-b2f1-b8a7f190f00f" name="Suppression commentaires" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Hire</find>
-      <find>centerPanel</find>
-      <find>compare</find>
-      <find>Comparator</find>
-      <find>northPanel</find>
-      <find>formulairePanel</find>
-      <find>leftPanel</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>leftPanel</replace>
-      <replace>formulairePanel</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\Users\morga\Documents\Devt\Java\Projects\JavaTest</dir>
-      <dir>C:\Users\morga\Documents\Devt\Java\Projects\JavaTest\src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="branch-3" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Mvc/AbstractControler.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Mvc/CalculetteControler.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Mvc/Calculette.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Mvc/Main.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/DragAndDropDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/LabelContentDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Exemple1/DragAndDropDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Exemple2/LabelContentDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Exemple3/LabelContentDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Exemple3/LabelContentDemo3.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Exemple3/MyTransferHandler.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/Custom2/MyTransferHandler.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/JLabel2/MyTransferHandler.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/JTree/MyTransferHandler.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/JTree/TreeTransferHandler.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/JTree/TreeDragDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/EffetDeplacement/MyGlassPane.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/EffetDeplacement/MouseGlassMotionListener.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/EffetDeplacement/Fenetre.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/EffetDeplacement/MouseGlassListener.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/DragAndDrop/EffetDeplacement/Readme.txt" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/ReadMe.txt" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/Test1.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/Test2.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/Test1SansEDT.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/Test2AvecEDT.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/SwingWorkerDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/EventDispatchThread/SwingWorkerDemo2.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/JComboBox/ComboBoxModelDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/LayoutTest5.java" />
-        <option value="$PROJECT_DIR$/src/Collections/Objects/Modele.java" />
-        <option value="$PROJECT_DIR$/src/Collections/Objects/ArrayListObjectsDemo.java" />
-        <option value="$PROJECT_DIR$/src/Preferences/PreferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/JTable/JTableNHL.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/JTable/SimpleTableDemo.java" />
-        <option value="$PROJECT_DIR$/src/JavaTime/PeriodDurationDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/FormulaireSepareParUnSplit.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/FormulaireSepareEnDeuxVerticalement.java" />
-        <option value="$PROJECT_DIR$/resources/iTunesTest.xml" />
-        <option value="$PROJECT_DIR$/src/xml/DOM/DOMDemo.java" />
-        <option value="$PROJECT_DIR$/src/xml/DOM/ReadXml.java" />
-        <option value="$PROJECT_DIR$/src/xml/DOM/ReadITunesXml.java" />
-        <option value="$PROJECT_DIR$/src/xml/DOM/ReadXml_iTunes.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/src/SwingLab/JPanel/JPanelPadding.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/LayoutTest2.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/JPanel/JPanelMarges.java" />
-        <option value="$PROJECT_DIR$/src/TypesDonnees/DateDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/GridLayoutDemo.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/GridLayoutDemo2.java" />
-        <option value="$PROJECT_DIR$/src/SwingLab/Layout/GridBagLayoutDemo2.java" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
-  </component>
-  <component name="ProjectId" id="2DLS2PFB79vmQjSs4eKwyemoGeo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaTime" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Preferences" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwingLab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwingLab" type="462c0819:PsiDirectoryNode" />
-              <item name="JDialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwingLab" type="462c0819:PsiDirectoryNode" />
-              <item name="JDialog" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwingLab" type="462c0819:PsiDirectoryNode" />
-              <item name="JDialog" type="462c0819:PsiDirectoryNode" />
-              <item name="OpenClassRooms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TypesDonnees" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="2aiigcLkSkkaJX1HWbo73vaCpsh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/morga/Documents/Devt/Java/Projects/NHL/Code&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\morga\Documents\Devt\Java\Projects\JavaTest\resources" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.FrameTest">
-    <configuration name="ControlesSuperposes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.ControlesSuperposes" />
+  <component name="RunManager" selected="Application.Arrondis">
+    <configuration name="Arrondis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypesDonnees.Arrondis" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TypesDonnees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Folders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilesAndFolders.Folders" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FilesAndFolders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LayoutTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.LayoutTest" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -240,478 +88,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.JFrame.FrameTest" />
+    <configuration name="StartExecutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartExecutable" />
       <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwingLab.JFrame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.MessageDialog" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.TextField" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextSamplerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.TextSamplerDemo" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.FrameTest" />
-      <item itemvalue="Application.MessageDialog" />
-      <item itemvalue="Application.TextField" />
-      <item itemvalue="Application.TextSamplerDemo" />
-      <item itemvalue="Application.ControlesSuperposes" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ControlesSuperposes" />
-        <item itemvalue="Application.TextSamplerDemo" />
-        <item itemvalue="Application.TextField" />
-        <item itemvalue="Application.MessageDialog" />
-        <item itemvalue="Application.FrameTest" />
+        <item itemvalue="Application.Arrondis" />
+        <item itemvalue="Application.LayoutTest" />
+        <item itemvalue="Application.Folders" />
+        <item itemvalue="Application.StartExecutable" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f76983f-9e2b-4ab3-adfd-baa0f9900042" name="Default Changelist" comment="" />
-      <changelist id="e88b2ac8-d31f-44c5-ae86-ca88d4cfdd15" name="Revert &quot;Suppression commentaires&quot;" comment="" />
-      <changelist id="438bf988-285a-4b58-b2f1-b8a7f190f00f" name="Suppression commentaires" comment="" />
-      <created>1556303773745</created>
+      <changelist id="440a89e0-8793-48a1-84c1-6367b4e705f1" name="Changes" comment="" />
+      <created>1704807912638</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556303773745</updated>
+      <updated>1704807912638</updated>
     </task>
-    <task id="LOCAL-00013" summary="Suppression commentaires tests Git">
-      <created>1556352130117</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00001" summary="Ajout classe StartExecutable.java">
+      <created>1704818601423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1556352130117</updated>
+      <updated>1704818601423</updated>
     </task>
-    <task id="LOCAL-00014" summary="Modif branch-3">
-      <created>1556352289770</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00002" summary="Test construction chemin et test de dossier">
+      <created>1705504049858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1556352289770</updated>
+      <updated>1705504049858</updated>
     </task>
-    <task id="LOCAL-00015" summary="Modif master">
-      <created>1556352333836</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1556352333836</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Validation d'un document XML avec une DTD">
-      <created>1563608987829</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1563608987829</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Tests JAVA/XML">
-      <created>1567336716570</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1567336716570</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Tests JAVA/XML : XPath">
-      <created>1567851111517</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1567851111517</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Layouts">
-      <created>1578166505018</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1578166505018</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Layouts">
-      <created>1578226805944</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1578226805944</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Exemples JTable">
-      <created>1578824408354</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1578824408355</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Exemple SimpleDateFormat">
-      <created>1578849225232</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1578849225232</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Exemple programmation objet">
-      <created>1583659709697</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1583659709697</updated>
-    </task>
-    <task id="LOCAL-00024" summary="ajout TableDoubleClickDemo">
-      <created>1584123052959</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1584123052959</updated>
-    </task>
-    <task id="LOCAL-00025" summary="JavaUtilFunction">
-      <created>1584176065193</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1584176065193</updated>
-    </task>
-    <task id="LOCAL-00026" summary="JavaUtilStream">
-      <created>1584183565644</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1584183565644</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Tests JavaTime">
-      <created>1584781296569</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1584781296569</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Ajout exemples Swing et pattern Observer">
-      <created>1584812134209</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1584812134209</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Ajout exemples Threads">
-      <created>1584898513127</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1584898513127</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Ajout exemples de code">
-      <created>1585395592545</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1585395592545</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Exemples boîtes de dialogue">
-      <created>1585482176128</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1585482176128</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Exemple menu, barre d'outils">
-      <created>1585991594461</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1585991594461</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Example JSplitPane">
-      <created>1587204688517</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1587204688517</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Exemples JTabbedPane et JTree">
-      <created>1588754095414</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1588754095414</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Example MVC">
-      <created>1599233897666</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1599233897666</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Drag and drop avec effet de déplacement">
-      <created>1599381923207</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1599381923207</updated>
-    </task>
-    <task id="LOCAL-00037" summary="EventDispatchThread">
-      <created>1599824268674</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1599824268674</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Layout avec groupes de contrôles disposés verticalement">
-      <created>1601747047236</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1601747047236</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Format numbers">
-      <created>1602229094138</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1602229094138</updated>
-    </task>
-    <task id="LOCAL-00040" summary="?">
-      <created>1615628733426</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1615628733426</updated>
-    </task>
-    <task id="LOCAL-00041" summary="?">
-      <created>1622362190338</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1622362190338</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Test commit">
-      <created>1625304188093</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1625304188093</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Tableau avec scroll horizontal">
-      <created>1629023878478</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1629023878478</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Nombre de jours entre 2 dates">
-      <created>1630224084235</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1630224084235</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Exemple JTable avec classe héritant de JTable">
-      <created>1630224160070</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1630224160070</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Commentaire">
-      <created>1630224256567</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1630224256567</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Layout formulaire + image">
-      <created>1636222069506</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1636222069506</updated>
-    </task>
-    <task id="LOCAL-00048" summary="JPanelMarges">
-      <created>1638025663967</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1638025663967</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Centrer la fenêtre">
-      <created>1638025695892</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1638025695892</updated>
-    </task>
-    <task id="LOCAL-00050" summary="RAS">
-      <created>1638025725828</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1638025725828</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Tests sur les date / Tests sur fichier iTunes">
-      <created>1645266762495</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1645266762496</updated>
-    </task>
-    <task id="LOCAL-00052" summary="GridBagLayoutDemo2">
-      <created>1647769837628</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1647769837644</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Ajout TimeZoneDemo.java">
-      <created>1660549691120</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1660549691120</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Formatage date">
-      <created>1663394532715</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1663394532715</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Commentaire">
-      <created>1663394659608</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1663394659608</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Ajout code pour récupérer le 1er objet en fonction du filtre">
-      <created>1670690278380</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1670690278380</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Ajout texte dans la barre devant les outils">
-      <created>1670690474104</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1670690474104</updated>
-    </task>
-    <task id="LOCAL-00058" summary="JComboBox Autocompletion">
-      <created>1677937223838</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1677937223838</updated>
-    </task>
-    <task id="LOCAL-00059" summary="JComboBox Autocompletion">
-      <created>1677937267574</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1677937267574</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Layout BoxLayout composants superposés">
-      <created>1677937290477</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1677937290477</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Test Focus sur TextField">
-      <created>1679743517953</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1679743517953</updated>
-    </task>
-    <option name="localTasksCounter" value="62" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.20679887" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25790986" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.21388102" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32694152" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32694152" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="11" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -721,528 +138,12 @@
             <State />
           </value>
         </entry>
-        <entry key="b4361098-30b6-4cf3-9d7f-cc9e96bfac40">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="b4361098-30b6-4cf3-9d7f-cc9e96bfac40" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exemples JTabbedPane et JTree" />
-    <MESSAGE value="Example MVC" />
-    <MESSAGE value="Drag and drop avec effet de déplacement" />
-    <MESSAGE value="EventDispatchThread" />
-    <MESSAGE value="Layout avec groupes de contrôles disposés verticalement" />
-    <MESSAGE value="Format numbers" />
-    <MESSAGE value="?" />
-    <MESSAGE value="Test commit" />
-    <MESSAGE value="Tableau avec scroll horizontal" />
-    <MESSAGE value="Nombre de jours entre 2 dates" />
-    <MESSAGE value="Exemple JTable avec classe héritant de JTable" />
-    <MESSAGE value="Layout formulaire + image" />
-    <MESSAGE value="JPanelMarges" />
-    <MESSAGE value="Centrer la fenêtre" />
-    <MESSAGE value="RAS" />
-    <MESSAGE value="Tests sur les date / Tests sur fichier iTunes" />
-    <MESSAGE value="GridBagLayoutDemo2" />
-    <MESSAGE value="Ajout TimeZoneDemo.java" />
-    <MESSAGE value="Formatage date" />
-    <MESSAGE value="Commentaire" />
-    <MESSAGE value="Ajout code pour récupérer le 1er objet en fonction du filtre" />
-    <MESSAGE value="Ajout texte dans la barre devant les outils" />
-    <MESSAGE value="JComboBox Autocompletion" />
-    <MESSAGE value="Layout BoxLayout composants superposés" />
-    <MESSAGE value="Test Focus sur TextField" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Focus sur TextField" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/xml/DOM/DOMDemo.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JButton/JButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JButton/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JButton/Interaction/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/Animation/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/Animation/Panneau.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/PieFrame/PieFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/RondCentre/Panneau.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/PieFrame/PiePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/Rond/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/Rond/GraphicsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/RondCentre/RondCentre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/NHL_Schema_ref.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/iTunesTest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/ReadITunesXml.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/ReadXml_iTunes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/DOMDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/ReadXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/ReadXmlCompleteStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/ReadXmlJTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/DOM/TryDOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/Rond/Panneau.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Graphics/RondCentre/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JPanel/JPanelDemo1/JPanelDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JPanel/JPanelDemo1/Fenetre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JPanel/JPanelPadding.java" />
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JCheckBox/CheckBoxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding>
-            <element signature="e#2647#2648#0" expanded="true" />
-            <element signature="e#2695#2696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JComboBox/ComboBoxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Preferences/PreferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JTable/TableDemoCellRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JPanel/JPanelMarges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="45" selection-start-line="29" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/FormulaireSepareEnDeuxVerticalement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/LayoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="63" selection-start-line="19" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/LayoutTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="40" selection-start-line="39" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/EventTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JTable/JTableNHL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/GridLayoutDemoOpenClassRooms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaTime/TemporalAdjustersDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaTime/DateTimeManipulationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaTime/PeriodDurationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaTime/JavaTimeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TypesDonnees/DateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="53" column="2" selection-start-line="53" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/GridLayoutDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/GridBagLayoutDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/BoxLayoutDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="79" selection-start-line="78" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/Layout/GridBagLayoutDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="78" column="71" selection-start-line="78" selection-start-column="71" selection-end-line="78" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JTable/SimpleTableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JTable/TableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JDialog/Dialogs/ListDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JDialog/Dialogs/ListDialogRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwingLab/JDialog/OpenClassRooms/TestPersonnageDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>JavaTest:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <MESSAGE value="Ajout classe StartExecutable.java" />
+    <MESSAGE value="Test construction chemin et test de dossier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test construction chemin et test de dossier" />
   </component>
 </project>
