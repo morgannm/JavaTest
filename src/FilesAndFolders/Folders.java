@@ -1,6 +1,7 @@
 package FilesAndFolders;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 
 // Tests sur les dossiers
@@ -33,6 +34,8 @@ public class Folders {
             System.out.println("Le dossier '" + badFolder + "' n'existe pas");
 
         // Test d'un chemin absolu ou relatif
+        System.out.println("==================================================================");
+        System.out.println("Test d'un chemin absolu ou relatif avec java.io.File");
         String relativePath = "\\ExportXml\\";
         File testPath = new File(relativePath);
         if (testPath.isAbsolute()) {
@@ -52,6 +55,26 @@ public class Folders {
             System.out.println(testPath.getPath() + " est un chemin absolu");
         } else {
             System.out.println(testPath.getPath() + " est un chemin relatif");
+        }
+
+        System.out.println("==================================================================");
+        System.out.println("Test d'un chemin absolu ou relatif avec java.nio.Path");
+        Path path = Paths.get(relativePath);
+        if (path.isAbsolute())
+            System.out.println(relativePath + " est un chemin absolu");
+        else
+            System.out.println(relativePath + " est un chemin relatif");
+        path = Paths.get(dossierPartage);
+        if (path.isAbsolute()) {
+            System.out.println(dossierPartage + " est un chemin absolu");
+        } else {
+            System.out.println(dossierPartage + " est un chemin relatif");
+        }
+        path = Paths.get(dossierPartage,relativePath);
+        if (path.isAbsolute()) {
+            System.out.println(path + " est un chemin absolu");
+        } else {
+            System.out.println(path + " est un chemin relatif");
         }
     }
 }
