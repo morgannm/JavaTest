@@ -31,5 +31,27 @@ public class Folders {
             System.out.println("Le dossier '" + badFolder + "' existe");
         else
             System.out.println("Le dossier '" + badFolder + "' n'existe pas");
+
+        // Test d'un chemin absolu ou relatif
+        String relativePath = "\\ExportXml\\";
+        File testPath = new File(relativePath);
+        if (testPath.isAbsolute()) {
+            System.out.println(relativePath + " est un chemin absolu");
+        } else {
+            System.out.println(relativePath + " est un chemin relatif");
+        }
+        String dossierPartage = "\\\\Belrdevelapp01n\\tests\\DonneesPartagees\\";
+        testPath = new File(dossierPartage);
+        if (testPath.isAbsolute()) {
+            System.out.println(dossierPartage + " est un chemin absolu");
+        } else {
+            System.out.println(dossierPartage + " est un chemin relatif");
+        }
+        testPath = new File(dossierPartage,relativePath);
+        if (testPath.isAbsolute()) {
+            System.out.println(testPath.getPath() + " est un chemin absolu");
+        } else {
+            System.out.println(testPath.getPath() + " est un chemin relatif");
+        }
     }
 }
