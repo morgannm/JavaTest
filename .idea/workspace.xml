@@ -9,11 +9,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/Stream/JavaUtilStream/TestStream.java" line="62" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f76983f-9e2b-4ab3-adfd-baa0f9900042" name="Default Changelist" comment="Test Focus sur TextField">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6f84a8ce-b3eb-4cb0-a9a8-76f92fe4409f" name="Changes" comment="Tests nombres et GridBagLayout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypesDonnees/FormatNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypesDonnees/FormatNumbers.java" afterDir="false" />
     </list>
-    <list id="e88b2ac8-d31f-44c5-ae86-ca88d4cfdd15" name="Revert &quot;Suppression commentaires&quot;" comment="" />
-    <list id="438bf988-285a-4b58-b2f1-b8a7f190f00f" name="Suppression commentaires" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,8 +213,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/morga/Documents/Devt/Java/Projects/NHL/Code&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/morga/Documents/Devt/Java/Projects/JavaTest/JavaTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
@@ -226,13 +225,13 @@
       <recent name="C:\Users\morga\Documents\Devt\Java\Projects\JavaTest\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FrameTest">
-    <configuration name="ControlesSuperposes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.ControlesSuperposes" />
+  <component name="RunManager" selected="Application.FormatNumbers">
+    <configuration name="FormatNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypesDonnees.FormatNumbers" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.Layout.*" />
+          <option name="PATTERN" value="TypesDonnees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.JFrame.FrameTest" />
+    <configuration name="GridBagLayoutDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo3" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.JFrame.*" />
+          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.MessageDialog" />
+    <configuration name="GridBagLayoutDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo4" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
+          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.TextField" />
+    <configuration name="GridBagLayoutDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo5" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
+          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextSamplerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.TextSamplerDemo" />
+    <configuration name="SimpleTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.JTable.SimpleTableDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.*" />
+          <option name="PATTERN" value="SwingLab.JTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,19 +292,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FrameTest" />
-      <item itemvalue="Application.MessageDialog" />
-      <item itemvalue="Application.TextField" />
-      <item itemvalue="Application.TextSamplerDemo" />
-      <item itemvalue="Application.ControlesSuperposes" />
+      <item itemvalue="Application.FormatNumbers" />
+      <item itemvalue="Application.GridBagLayoutDemo4" />
+      <item itemvalue="Application.GridBagLayoutDemo5" />
+      <item itemvalue="Application.SimpleTableDemo" />
+      <item itemvalue="Application.GridBagLayoutDemo3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ControlesSuperposes" />
-        <item itemvalue="Application.TextSamplerDemo" />
-        <item itemvalue="Application.TextField" />
-        <item itemvalue="Application.MessageDialog" />
-        <item itemvalue="Application.FrameTest" />
+        <item itemvalue="Application.FormatNumbers" />
+        <item itemvalue="Application.GridBagLayoutDemo4" />
+        <item itemvalue="Application.GridBagLayoutDemo5" />
+        <item itemvalue="Application.SimpleTableDemo" />
+        <item itemvalue="Application.GridBagLayoutDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -315,55 +314,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f76983f-9e2b-4ab3-adfd-baa0f9900042" name="Default Changelist" comment="" />
-      <changelist id="e88b2ac8-d31f-44c5-ae86-ca88d4cfdd15" name="Revert &quot;Suppression commentaires&quot;" comment="" />
-      <changelist id="438bf988-285a-4b58-b2f1-b8a7f190f00f" name="Suppression commentaires" comment="" />
+      <changelist id="6f84a8ce-b3eb-4cb0-a9a8-76f92fe4409f" name="Changes" comment="Test commit &amp; push erroné" />
       <created>1556303773745</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556303773745</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Suppression commentaires tests Git">
-      <created>1556352130117</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1556352130117</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Modif branch-3">
-      <created>1556352289770</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1556352289770</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Modif master">
-      <created>1556352333836</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1556352333836</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Validation d'un document XML avec une DTD">
-      <created>1563608987829</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1563608987829</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Tests JAVA/XML">
-      <created>1567336716570</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1567336716570</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Tests JAVA/XML : XPath">
-      <created>1567851111517</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1567851111517</updated>
     </task>
     <task id="LOCAL-00019" summary="Layouts">
       <created>1578166505018</created>
@@ -666,7 +621,49 @@
       <option name="project" value="LOCAL" />
       <updated>1679743517953</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Test commit &amp; push erroné">
+      <created>1682848798045</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1682848798045</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Test commit &amp; push erroné 2">
+      <created>1682849094171</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1682849094172</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Test commit &amp; push erroné 3">
+      <created>1682849288164</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1682849288164</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Tableau d'objets">
+      <created>1682924812935</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1682924812935</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Exemple LocalDate">
+      <created>1700906293437</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1700906293437</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Tests nombres et GridBagLayout">
+      <created>1704807589024</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1704807589024</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -770,12 +767,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exemples JTabbedPane et JTree" />
-    <MESSAGE value="Example MVC" />
-    <MESSAGE value="Drag and drop avec effet de déplacement" />
-    <MESSAGE value="EventDispatchThread" />
-    <MESSAGE value="Layout avec groupes de contrôles disposés verticalement" />
-    <MESSAGE value="Format numbers" />
     <MESSAGE value="?" />
     <MESSAGE value="Test commit" />
     <MESSAGE value="Tableau avec scroll horizontal" />
@@ -795,7 +786,13 @@
     <MESSAGE value="JComboBox Autocompletion" />
     <MESSAGE value="Layout BoxLayout composants superposés" />
     <MESSAGE value="Test Focus sur TextField" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Focus sur TextField" />
+    <MESSAGE value="Test commit &amp; push erroné" />
+    <MESSAGE value="Test commit &amp; push erroné 2" />
+    <MESSAGE value="Test commit &amp; push erroné 3" />
+    <MESSAGE value="Tableau d'objets" />
+    <MESSAGE value="Exemple LocalDate" />
+    <MESSAGE value="Tests nombres et GridBagLayout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests nombres et GridBagLayout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

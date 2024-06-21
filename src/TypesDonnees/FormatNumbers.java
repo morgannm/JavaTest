@@ -1,7 +1,20 @@
 package TypesDonnees;
 
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Locale;
+
 public class FormatNumbers {
     public static void main(String[] args) {
+        String nombre = "169,23";
+        NumberFormat nf = NumberFormat.getInstance(Locale.FRENCH);
+        try {
+            float fNombre = nf.parse(nombre).floatValue();
+            System.out.println("fNombre : " + String.format("%.2f",fNombre));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
         Double test1 = 1.234;
         Double test2 = 1000.0;
         Double result1 = test2/(test1*1000);
