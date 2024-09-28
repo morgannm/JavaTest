@@ -10,6 +10,10 @@ public class MenuDemo extends JFrame {
     private JMenu menuSousFichier = new JMenu("Sous ficher");
     private JMenu menuEdition = new JMenu("Edition");
 
+    private JMenu menuSousMenuContextuel = new JMenu("Sous menu contextuel");
+    private JMenuItem menuItemSousFichierContext1 = new JMenuItem("Option 1");
+    private JMenuItem menuItemSousFichierContext2 = new JMenuItem("Option 2");
+
     private JMenuItem menuItemOuvrir = new JMenuItem("Ouvrir",'O');
     private JMenuItem menuItemQuitter = new JMenuItem("Quitter");
     private JMenuItem menuItemLancer = new JMenuItem("Lancer");
@@ -104,6 +108,9 @@ public class MenuDemo extends JFrame {
         // Menu contextuel
         popupMenuItemOuvrir.addActionListener(ouvrirListener);
         popupMenuItemQuitter.addActionListener(quitterListener);
+        // sous-menu contextuel affichant 2 options
+        this.menuSousMenuContextuel.add(menuItemSousFichierContext1);
+        this.menuSousMenuContextuel.add(menuItemSousFichierContext2);
         // Listener pour ouvrir le menu contextuel quand on fait un clic droit sur centerPanel
         centerPanel.addMouseListener(new MouseAdapter() {
             @Override
@@ -112,6 +119,7 @@ public class MenuDemo extends JFrame {
                 if (event.isPopupTrigger()) {
                     popupMenu.add(popupMenuItemOuvrir);
                     popupMenu.add(popupMenuItemQuitter);
+                    popupMenu.add(menuSousMenuContextuel);
                     popupMenu.show(centerPanel, event.getX(), event.getY());
                 }
             }
