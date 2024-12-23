@@ -9,9 +9,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/Stream/JavaUtilStream/TestStream.java" line="62" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f84a8ce-b3eb-4cb0-a9a8-76f92fe4409f" name="Changes" comment="Tests nombres et GridBagLayout">
+    <list default="true" id="6f84a8ce-b3eb-4cb0-a9a8-76f92fe4409f" name="Changes" comment="Layout avec zone de texte centrale et label à gaiche, boutons radio et de commande en bas">
+      <change afterPath="$PROJECT_DIR$/src/SwingLab/JTable/ButtonCell/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwingLab/JTable/ButtonCell/ClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwingLab/JTable/ButtonCell/EditClientFrm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwingLab/JTable/ButtonCell/TableButtonCellDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypesDonnees/FormatNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypesDonnees/FormatNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,9 +228,22 @@
       <recent name="C:\Users\morga\Documents\Devt\Java\Projects\JavaTest\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FormatNumbers">
-    <configuration name="FormatNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypesDonnees.FormatNumbers" />
+  <component name="RunManager" selected="Application.LayoutTest6">
+    <configuration name="CheckBoxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.JCheckBox.CheckBoxes" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SwingLab.JCheckBox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypesDonnees.DateDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -239,12 +255,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridBagLayoutDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo3" />
+    <configuration name="LayoutTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.LayoutTest5" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
+          <option name="PATTERN" value="SwingLab.Layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridBagLayoutDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo4" />
+    <configuration name="LayoutTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.LayoutTest6" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
+          <option name="PATTERN" value="SwingLab.Layout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,25 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridBagLayoutDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.Layout.GridBagLayout.GridBagLayoutDemo5" />
+    <configuration name="TableButtonCellDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingLab.JTable.ButtonCell.TableButtonCellDemo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SwingLab.Layout.GridBagLayout.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SwingLab.JTable.SimpleTableDemo" />
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SwingLab.JTable.*" />
+          <option name="PATTERN" value="SwingLab.JTable.ButtonCell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FormatNumbers" />
-      <item itemvalue="Application.GridBagLayoutDemo4" />
-      <item itemvalue="Application.GridBagLayoutDemo5" />
-      <item itemvalue="Application.SimpleTableDemo" />
-      <item itemvalue="Application.GridBagLayoutDemo3" />
+      <item itemvalue="Application.CheckBoxes" />
+      <item itemvalue="Application.DateDemo" />
+      <item itemvalue="Application.LayoutTest5" />
+      <item itemvalue="Application.LayoutTest6" />
+      <item itemvalue="Application.TableButtonCellDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FormatNumbers" />
-        <item itemvalue="Application.GridBagLayoutDemo4" />
-        <item itemvalue="Application.GridBagLayoutDemo5" />
-        <item itemvalue="Application.SimpleTableDemo" />
-        <item itemvalue="Application.GridBagLayoutDemo3" />
+        <item itemvalue="Application.LayoutTest6" />
+        <item itemvalue="Application.CheckBoxes" />
+        <item itemvalue="Application.LayoutTest5" />
+        <item itemvalue="Application.DateDemo" />
+        <item itemvalue="Application.TableButtonCellDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -319,27 +322,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556303773745</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Layouts">
-      <created>1578166505018</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1578166505018</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Layouts">
-      <created>1578226805944</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1578226805944</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Exemples JTable">
-      <created>1578824408354</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1578824408355</updated>
     </task>
     <task id="LOCAL-00022" summary="Exemple SimpleDateFormat">
       <created>1578849225232</created>
@@ -663,7 +645,28 @@
       <option name="project" value="LOCAL" />
       <updated>1704807589024</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Formatage nombre au format français">
+      <created>1718991203439</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1718991203439</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Sous-menu contextuel">
+      <created>1727511823849</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1727511823849</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Layout avec zone de texte centrale et label à gaiche, boutons radio et de commande en bas">
+      <created>1729414310355</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1729414310356</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,9 +770,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="?" />
-    <MESSAGE value="Test commit" />
-    <MESSAGE value="Tableau avec scroll horizontal" />
     <MESSAGE value="Nombre de jours entre 2 dates" />
     <MESSAGE value="Exemple JTable avec classe héritant de JTable" />
     <MESSAGE value="Layout formulaire + image" />
@@ -792,7 +792,10 @@
     <MESSAGE value="Tableau d'objets" />
     <MESSAGE value="Exemple LocalDate" />
     <MESSAGE value="Tests nombres et GridBagLayout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests nombres et GridBagLayout" />
+    <MESSAGE value="Formatage nombre au format français" />
+    <MESSAGE value="Sous-menu contextuel" />
+    <MESSAGE value="Layout avec zone de texte centrale et label à gaiche, boutons radio et de commande en bas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout avec zone de texte centrale et label à gaiche, boutons radio et de commande en bas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
