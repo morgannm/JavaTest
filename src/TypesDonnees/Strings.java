@@ -5,7 +5,13 @@ class Strings {
     public static void main(String[] args) {
         // caractère
         char quitKey = '@';
-        
+
+        String splitTest = "Adresse ligne 1\r\nAdresse ligne 2\r\nAdresse ligne 3";
+        String adr[] = splitTest.split("\r\n", 3);
+        System.out.println(adr[0]);
+        System.out.println(adr[1]);
+        System.out.println(adr[2]);
+
         // chaine de caractères
         String fullName = "Ada McGrath Stewart";
         
