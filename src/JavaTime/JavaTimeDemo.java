@@ -1,12 +1,16 @@
 package JavaTime;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class JavaTimeDemo {
     public static void main(String[] args) {
         // Get the current date and time
         LocalDateTime currentTime = LocalDateTime.now();
         System.out.println("Date et heure courante : " + currentTime);
+
+        // Horodatage
+        System.out.println(currentTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HHmmss")));
 
         LocalDate date1 = currentTime.toLocalDate();
         System.out.println("Date courante : " + date1);
